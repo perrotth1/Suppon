@@ -4,6 +4,7 @@
 
 sleep 10
 
+cd /home/henry/Suppon/scoutMode/
 python switchStart.py &
 
 sleep 2
