@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.40 scan initiated Mon May 13 19:02:32 2019 as: nmap -F -A -oX logFiles/nmap_output.xml 192.168.1.1/24 -->
+<nmaprun scanner="nmap" args="nmap -F -A -oX logFiles/nmap_output.xml 192.168.1.1/24" start="1557788552" startstr="Mon May 13 19:02:32 2019" version="7.40" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1557788554" endtime="1557788602"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<address addr="AC:3B:77:23:7F:74" addrtype="mac"/>
+<hostnames>
+<hostname name="HG6Box" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="58">
+<extrareasons reason="resets" count="58"/>
+</extraports>
+<extraports state="filtered" count="37">
+<extrareasons reason="no-responses" count="37"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" product="dnsmasq" version="2.55" method="probed" conf="10"><cpe>cpe:/a:thekelleys:dnsmasq:2.55</cpe></service><script id="dns-nsid" output="&#xa;  id.server: Answerx_On_nycny-dns-cac-309&#xa;  bind.version: dnsmasq-2.55"><elem key="id.server">Answerx_On_nycny-dns-cac-309</elem>
+<elem key="bind.version">dnsmasq-2.55</elem>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="lighttpd" method="probed" conf="10"><cpe>cpe:/a:lighttpd:lighttpd</cpe></service><script id="http-server-header" output="HTTP Server"><elem>HTTP Server</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html).&#xa;Requested resource was /0.1/gui/"><elem key="title"></elem>
+<elem key="redirect_url">/0.1/gui/</elem>
+</script></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.X - 4.X" extrainfo="workgroup: WORKGROUP" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.0.24" extrainfo="workgroup: WORKGROUP" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="upnp" product="Portable SDK for UPnP devices" version="1.6.18" extrainfo="Linux 2.6.28.8; UPnP 1.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/o:linux:linux_kernel:2.6.28.8</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="53"/>
+<portused state="closed" proto="tcp" portid="22"/>
+<portused state="closed" proto="udp" portid="33909"/>
+<osmatch name="Huawei HG8245T GPON ONU WAP (Linux 2.6.21)" accuracy="100" line="58303">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6.21</cpe></osclass>
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="100"><cpe>cpe:/h:huawei:hg8245t</cpe></osclass>
+</osmatch>
+</os>
+<distance value="1"/>
+<tcpsequence index="200" difficulty="Good luck!" values="6D315084,6D274540,6D171205,6D92CDB1,6D43B6B6,6DA75557"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="none returned (unsupported)"/>
+<hostscript><script id="nbstat" output="NetBIOS name: SAGEMCOM, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: &lt;unknown&gt; (unknown)"><table key="names">
+<table>
+<elem key="name">SAGEMCOM</elem>
+<elem key="suffix">0</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">SAGEMCOM</elem>
+<elem key="suffix">3</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">SAGEMCOM</elem>
+<elem key="suffix">32</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">WORKGROUP</elem>
+<elem key="suffix">30</elem>
+<elem key="flags">33792</elem>
+</table>
+<table>
+<elem key="name">WORKGROUP</elem>
+<elem key="suffix">0</elem>
+<elem key="flags">33792</elem>
+</table>
+</table>
+<table key="statistics">
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+</table>
+<elem key="server_name">SAGEMCOM</elem>
+<table key="mac">
+<elem key="manuf">unknown</elem>
+<elem key="address">&lt;unknown&gt;</elem>
+</table>
+<elem key="user">&lt;unknown&gt;</elem>
+</script><script id="smb-os-discovery" output="&#xa;  OS: Unix (Samba 3.0.24)&#xa;  NetBIOS computer name: &#xa;  Workgroup: WORKGROUP\x00&#xa;  System time: 2019-05-13T23:03:15+00:00&#xa;"><elem key="os">Unix</elem>
+<elem key="lanmanager">Samba 3.0.24</elem>
+<elem key="domain">WORKGROUP\x00</elem>
+<elem key="server"></elem>
+<elem key="date">2019-05-13T23:03:15+00:00</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: share (dangerous)&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">share</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smbv2-enabled" output="Server doesn&apos;t support SMBv2 protocol">false</script></hostscript><trace>
+<hop ttl="1" ipaddr="192.168.1.1" rtt="1.84" host="HG6Box"/>
+</trace>
+<times srtt="1839" rttvar="623" to="100000"/>
+</host>
+<host starttime="1557788554" endtime="1557788602"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.17" addrtype="ipv4"/>
+<address addr="1C:6F:65:9F:ED:B1" addrtype="mac" vendor="Giga-byte Technology"/>
+<hostnames>
+<hostname name="DESKTOP-T9VJ4T2" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="99">
+<extrareasons reason="no-responses" count="99"/>
+</extraports>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="VMware VirtualCenter Web service" tunnel="ssl" method="probed" conf="10"/><script id="http-title" output="Site doesn&apos;t have a title (text; charset=plain)."></script><script id="ssl-cert" output="Subject: commonName=VMware/countryName=US&#xa;Not valid before: 2019-02-24T21:56:26&#xa;Not valid after:  2020-02-24T21:56:26"><table key="subject">
+<elem key="emailAddress">none@vmware.com</elem>
+<elem key="localityName">Palo Alto</elem>
+<elem key="countryName">US</elem>
+<elem key="commonName">VMware</elem>
+<elem key="organizationalUnitName">VMware</elem>
+</table>
+<table key="issuer">
+<elem key="emailAddress">none@vmware.com</elem>
+<elem key="localityName">Palo Alto</elem>
+<elem key="countryName">US</elem>
+<elem key="commonName">VMware</elem>
+<elem key="organizationalUnitName">VMware</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="exponent">userdata: 0x288a3c0</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">F2:C4:FF:A3:82:76:D1:90:99:66:29:09:C8:62:E9:06:41:38:45:AB</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:F2:C4:FF:A3:82:76:D1:90:99:66:29:09:C8:62:E9:06:41:38:45:AB&#xa;DirName:/C=US/L=Palo Alto/OU=VMware/CN=VMware/emailAddress=none@vmware.com&#xa;serial:FE:2E:8A:7A:80:0F:B1:42&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:TRUE</elem>
+</table>
+</table>
+<elem key="sig_algo">sha1WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2019-02-24T21:56:26</elem>
+<elem key="notAfter">2020-02-24T21:56:26</elem>
+</table>
+<elem key="md5">b7e47c484f4e127de35d0dad165eec1c</elem>
+<elem key="sha1">7573ce60e575cf6df67d1fb5b48420978cfcc552</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIEEjCCAvqgAwIBAgIJAP4uinqAD7FCMA0GCSqGSIb3DQEBBQUAMGMxCzAJBgNV&#xa;BAYTAlVTMRIwEAYDVQQHEwlQYWxvIEFsdG8xDzANBgNVBAsTBlZNd2FyZTEPMA0G&#xa;A1UEAxMGVk13YXJlMR4wHAYJKoZIhvcNAQkBFg9ub25lQHZtd2FyZS5jb20wHhcN&#xa;MTkwMjI0MjE1NjI2WhcNMjAwMjI0MjE1NjI2WjBjMQswCQYDVQQGEwJVUzESMBAG&#xa;A1UEBxMJUGFsbyBBbHRvMQ8wDQYDVQQLEwZWTXdhcmUxDzANBgNVBAMTBlZNd2Fy&#xa;ZTEeMBwGCSqGSIb3DQEJARYPbm9uZUB2bXdhcmUuY29tMIIBIjANBgkqhkiG9w0B&#xa;AQEFAAOCAQ8AMIIBCgKCAQEA0G2CWMoiweFu6oq3XQ88sBzbxwlOE52TkUDZ5ovr&#xa;1dPI6UoxI98PcuTHLM/VHtYiIjMmx0AIhddCEk+YUrYE3ACcvnrgX17rk5KsTbpl&#xa;suex9yPYAodnwmqA0ZzZKH4paNABFFQOmhDayPF7gdPRplKcplalDL9H3qkzuEn/&#xa;YNqwJpi6sYhlRCrHVbkIWsTHxaYQEXqrU/ltnj7vWNSQMVdH16GsFOLFT9TYk81I&#xa;cORl0E/lIXqtavJnHUsjKdiphluD6qTntuzVjJtLcXt4IDEGtW3KJj4YEbH6m23g&#xa;6frLXvY+yC9doc5skGzZHMs91UmB4AJpcFM/A7uBuHmWiQIDAQABo4HIMIHFMB0G&#xa;A1UdDgQWBBTyxP+jgnbRkJlmKQnIYukGQThFqzCBlQYDVR0jBIGNMIGKgBTyxP+j&#xa;gnbRkJlmKQnIYukGQThFq6FnpGUwYzELMAkGA1UEBhMCVVMxEjAQBgNVBAcTCVBh&#xa;bG8gQWx0bzEPMA0GA1UECxMGVk13YXJlMQ8wDQYDVQQDEwZWTXdhcmUxHjAcBgkq&#xa;hkiG9w0BCQEWD25vbmVAdm13YXJlLmNvbYIJAP4uinqAD7FCMAwGA1UdEwQFMAMB&#xa;Af8wDQYJKoZIhvcNAQEFBQADggEBAHUr17847UIspJgu9yfZNTejWsvkmV+tvJ3E&#xa;H7GADJuccdmGV0ZCdA+XDHCmH8yP+PtXV899BBNsHGQtrjHdWYEk7VD46I7o4zjw&#xa;ym+M9/4ZTZaB7TmYcR4U5oyGrsuyxwh3SBDQeAb/mLZpEfpAhmL8wAAd2g7rJUC8&#xa;9Q81Uk+gLrzp4DtsQ/ma4wFPAYJTMNJsBO/xCqnZ5iwGCoEZ7wLKtHt0o6fqLcYV&#xa;jsw4JTHh2eaHJ2EHklRNxm9/SO/hwyL9wDeaJv6V7z8Pxc3qSbh7rJWgfRuBgULu&#xa;oagJtBlQvwdqX7iNcZTpgDX/mtiCsbMEDnJ+VSLltzPlWpT9Y1c=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="2019-05-13T23:03:11+00:00; -3s from scanner time."><elem key="date">2019-05-13T23:03:11+00:00</elem>
+<elem key="delta">-3.0</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="AVtech Room Alert 26W environmental monitor" accuracy="87" line="8628">
+<osclass type="specialized" vendor="AVtech" osfamily="embedded" accuracy="87"/>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP2" accuracy="87" line="76420">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="87"><cpe>cpe:/o:microsoft:windows_xp::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="FreeBSD 6.2-RELEASE" accuracy="86" line="25801">
+<osclass type="general purpose" vendor="FreeBSD" osfamily="FreeBSD" osgen="6.X" accuracy="86"><cpe>cpe:/o:freebsd:freebsd:6.2</cpe></osclass>
+</osmatch>
+<osmatch name="FreeBSD 10.3-STABLE" accuracy="85" line="24811">
+<osclass type="general purpose" vendor="FreeBSD" osfamily="FreeBSD" osgen="10.X" accuracy="85"><cpe>cpe:/o:freebsd:freebsd:10.3</cpe></osclass>
+</osmatch>
+</os>
+<distance value="1"/>
+<tcpsequence index="261" difficulty="Good luck!" values="6274979C,E0DD95B5,3E39B2D0,F2014997,68C1F4A,A21D142A"/>
+<ipidsequence class="Incremental" values="2F9B,2F9C,2F9D,2F9E,2F9F,2FA0"/>
+<tcptssequence class="none returned (unsupported)"/>
+<hostscript><script id="clock-skew" output="mean: -2s, deviation: 0s, median: -2s"><elem key="median">-2</elem>
+<elem key="mean">-2</elem>
+<elem key="stddev">0</elem>
+</script></hostscript><trace>
+<hop ttl="1" ipaddr="192.168.1.17" rtt="-&#45;" host="DESKTOP-T9VJ4T2"/>
+</trace>
+<times srtt="-28420" rttvar="44943" to="151352"/>
+</host>
+<host starttime="1557788603" endtime="1557788614"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.1.227" addrtype="ipv4"/>
+<hostnames>
+<hostname name="henryyypi" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="98">
+<extrareasons reason="resets" count="98"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" extrainfo="protocol 2.0" servicefp="SF-Port22-TCP:V=7.40%I=7%D=5/13%Time=5CD9F7C2%P=arm-unknown-linux-gnueabihf%r(NULL,29,&quot;SSH-2\.0-OpenSSH_7\.4p1\x20Raspbian-10\+deb9u4\n&quot;);" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  NULL: &#xa;    SSH-2.0-OpenSSH_7.4p1 Raspbian-10+deb9u4"><elem key="NULL">&#xa;    SSH-2.0-OpenSSH_7.4p1 Raspbian-10+deb9u4</elem>
+</script><script id="ssh-hostkey" output="&#xa;  2048 10:d8:b2:9d:6d:70:07:f5:16:c5:18:31:51:3a:f5:18 (RSA)&#xa;  256 7f:14:6d:94:5f:89:43:3f:9b:f1:63:64:52:d3:8e:63 (ECDSA)"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDp2s9YlMLZJHwwziuT+pLWxHMRzB+J+6hGd0UhpUiByYv0s9xagl/MSG42W3DKCsgoCnbc+FU8XLhx2+HjlL5MyppUFp7ELEVoiRPMxggojoAbpWEiZB4vxoFQL93RXhs72t8JldYSAx+H3O6UiBgu7Nj+J+onmmrCcUtHxn2dAdevNQlxHLbhYb456Wq8iLKj2e+MjkKYpSCUZRPa5ec/Kdc7ksROBO94AdmLSKnVx6TaMvs5VRZKA0vS4cPmIjOVzmoPkpnwd+gwFnF8a4rP7zgbLGuYraNlLGVcKtyqT63HCvmSdj1FABmfiHvRTBaKMTRE7QB91K3n2lajUX6j</elem>
+<elem key="fingerprint">10d8b29d6d7007f516c51831513af518</elem>
+<elem key="bits">2048.0</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD+BQMaIgdkS7GU/k6kdwLzA+niJ1wpS07FLRaPsxg+t9wSLZGH1yZTj/3VWJDTGxgcZLpRT6FG8MxDcaAB1WEQ=</elem>
+<elem key="fingerprint">7f146d945f89433f9bf1636452d38e63</elem>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="lighttpd" version="1.4.45" method="probed" conf="10"><cpe>cpe:/a:lighttpd:lighttpd:1.4.45</cpe></service><script id="http-server-header" output="lighttpd/1.4.45"><elem>lighttpd/1.4.45</elem>
+</script><script id="http-title" output="Welcome page"><elem key="title">Welcome page</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="7"/>
+<portused state="closed" proto="udp" portid="35759"/>
+<osmatch name="Linux 3.7 - 3.10" accuracy="100" line="62640">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="460565" lastboot="Wed May  8 11:07:29 2019"/>
+<distance value="0"/>
+<tcpsequence index="262" difficulty="Good luck!" values="5F553B8A,A53184A4,BCF4E4E4,B63A4CA4,CFB6B008,435A2047"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="1B739C91,1B739CF5,1B739D59,1B739DBD,1B739E21,1B739E85"/>
+<times srtt="29" rttvar="3" to="100000"/>
+</host>
+<runstats><finished time="1557788614" timestr="Mon May 13 19:03:34 2019" elapsed="63.52" summary="Nmap done at Mon May 13 19:03:34 2019; 256 IP addresses (3 hosts up) scanned in 63.52 seconds" exit="success"/><hosts up="3" down="253" total="256"/>
+</runstats>
+</nmaprun>

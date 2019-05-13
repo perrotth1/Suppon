@@ -27,8 +27,8 @@ def activate():
 	os.system("./checkPrev.sh")
 	time.sleep(.5)
 
-	print ("[*] Starting monitor mode on wlan1")
-	os.system("sudo airmon-ng start wlan1")
+	print ("[*] Starting monitor mode")
+	os.system("sudo airmon-ng start wlxc4e98418f41a")
 	time.sleep(.5)
 
 	print ("[*] Starting Kismet scan")

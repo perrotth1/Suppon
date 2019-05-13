@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+#Scout Mode Startup
+sudo /home/henry/Suppon/scoutMode/startSuppon.sh &
+
+exit 0

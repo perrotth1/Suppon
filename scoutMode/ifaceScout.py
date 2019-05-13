@@ -28,8 +28,13 @@ for i in range(len(netData[0])):
 
 netMapInfo = []
 for z in range(len(netData[0])):
+	if("WEP" in netData[4][z]):		#REVERSE!!!
+		icon = "/ms/icons/green-dot.png"
+	else:
+		icon = "/marker.png"
+
 	marker ={
-			'icon': 'http://www.google.com/mapfiles/marker.png',
+			'icon': 'http://www.google.com/mapfiles'+icon,
 			'lat': float(netData[6][z]),
 			'lng': float(netData[7][z]),
 			'infobox': '<b>SSID: '+str(netData[1][z])+' || Encrypt: '+str(netData[4][z])+' || Packets: '+str(netData[2][z])+'</b>'
@@ -45,7 +50,7 @@ def main():
 		markers=netMapInfo,
 		style="height:700px;width:700px;margin:0;"
 	)
-	
+
 	return( render_template("map.html", mymap=mymap) )
 
 

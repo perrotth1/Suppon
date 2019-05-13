@@ -9,4 +9,3 @@ python switchStart.py &
 
 sleep 2
 
-#python shutDownSwitch.py &

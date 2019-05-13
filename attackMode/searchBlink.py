@@ -15,7 +15,7 @@ def main():
 		GPIO.output(4, True)
 		time.sleep(.5)
 
-	airCmd = "sudo airodump-ng -c "+sys.argv[1]+" --bssid "+sys.argv[2]+" wlan1mon -w capFiles/psk 2>&1 | tee capFiles/air_output.txt &"
+	airCmd = "sudo airodump-ng -c "+sys.argv[1]+" --bssid "+sys.argv[2]+" -w capFiles/psk wlan1mon 2>&1 | tee capFiles/air_output.txt &"
 	os.system(airCmd)
 
 if __name__ == "__main__":

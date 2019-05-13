@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+#Recon Mode Startup
+sudo /home/henry/Suppon/reconMode/startReconMode.sh &
+
+exit 0

