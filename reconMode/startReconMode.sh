@@ -13,6 +13,10 @@ echo $rangeIP
 
 sleep 1
 
+#Activate reverse SSH tunnel
+
+#./rev_ssh.sh &
+
 #Start recon web interface
 
 ./recOnline/startRecOnline.sh &

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #This script turns off recon mode and puts the device back into normal mode
+#DO NOT USE UNLESS WPA_SUPPLICANT.CONF IS BACKED UP
 
 sudo kill $(ps -aux | grep -m 1 hiddenCam.py | awk -F' ' '{print $2}')
 

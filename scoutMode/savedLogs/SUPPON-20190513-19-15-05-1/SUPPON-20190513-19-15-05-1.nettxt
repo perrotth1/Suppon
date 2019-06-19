@@ -1,0 +1,806 @@
+Kismet (http://www.kismetwireless.net)
+Mon May 13 19:15:05 2019 - Kismet 2016.07.R1
+-----------------
+
+Network 1: BSSID 06:1E:94:C6:E8:94
+ Manuf      : Unknown
+ First      : Mon May 13 19:16:41 2019
+ Last       : Mon May 13 19:16:41 2019
+ Type       : probe
+ BSSID      : 06:1E:94:C6:E8:94
+ Channel    : 0
+ Frequency  : 2462 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Min Pos    : Lat 41.734558 Lon -74.092819 Alt 79.099998 Spd 0.057000
+ Max Pos    : Lat 41.734558 Lon -74.092819 Alt 79.099998 Spd 0.057000
+ Peak Pos   : Lat 41.734558 Lon -74.092819 Alt 79.099998
+ Avg Pos    : AvgLat 41.734558 AvgLon -74.092819 AvgAlt 79.099900
+ Last BSSTS : May 13 19:16:41
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 1 packets
+              Mon May 13 19:16:41 2019
+ Client 1: MAC 06:1E:94:C6:E8:94
+  Manuf      : Unknown
+  First      : Mon May 13 19:16:41 2019
+  Last       : Mon May 13 19:16:41 2019
+  Type       : To Distribution
+  MAC        : 06:1E:94:C6:E8:94
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Mon May 13 19:16:41 2019
+    Last       : Mon May 13 19:16:41 2019
+    Max Rate   : 72.2
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+  Min Pos    : Lat 41.734558 Lon -74.092819 Alt 79.099998 Spd 0.057000
+  Max Pos    : Lat 41.734558 Lon -74.092819 Alt 79.099998 Spd 0.057000
+  Peak Pos   : Lat 41.734558 Lon -74.092819 Alt 79.099998
+  Avg Pos    : AvgLat 41.734558 AvgLon -74.092819 AvgAlt 79.099900
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 1 packets
+               Mon May 13 19:16:41 2019
+Network 2: BSSID 1C:B0:44:CC:E6:64
+ Manuf      : Unknown
+ First      : Mon May 13 19:15:11 2019
+ Last       : Mon May 13 19:18:23 2019
+ Type       : infrastructure
+ BSSID      : 1C:B0:44:CC:E6:64
+   SSID 1
+    Type       : Beacon
+    SSID       : "MySpectrumWiFi66-2G" 
+    First      : Mon May 13 19:15:11 2019
+    Last       : Mon May 13 19:18:23 2019
+    Max Rate   : 600.0
+    Beacon     : 10
+    Packets    : 121
+    WPS        : Configured
+    WPS Manuf  : Askey Computer Corp.
+    Dev Name   : RAC2V1K
+    Model Name : RAC2V1K
+    Model Num  : REV:1
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 11
+ Frequency  : 2457 - 4 packets, 3.25%
+ Frequency  : 2462 - 119 packets, 96.75%
+ Max Seen   : 1000
+ LLC        : 121
+ Data       : 2
+ Crypt      : 2
+ Fragments  : 0
+ Retries    : 0
+ Total      : 123
+ Datasize   : 240
+ Min Pos    : Lat 41.734550 Lon -74.092827 Alt 66.699997 Spd 0.005000
+ Max Pos    : Lat 41.734604 Lon -74.092804 Alt 80.000000 Spd 0.097000
+ Peak Pos   : Lat 41.734585 Lon -74.092827 Alt 76.300003
+ Avg Pos    : AvgLat 41.734574 AvgLon -74.092816 AvgAlt 74.638700
+ Last BSSTS : May  4 11:40:20
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 123 packets
+              Mon May 13 19:18:23 2019
+ Client 1: MAC 1C:B0:44:CC:E6:64
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:11 2019
+  Last       : Mon May 13 19:18:23 2019
+  Type       : From Distribution
+  MAC        : 1C:B0:44:CC:E6:64
+  Channel    : 11
+  Frequency  : 2457 - 4 packets, 3.31%
+  Frequency  : 2462 - 117 packets, 96.69%
+  Max Seen   : 1000
+  LLC        : 121
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 121
+  Datasize   : 0
+  Min Pos    : Lat 41.734550 Lon -74.092827 Alt 66.699997 Spd 0.005000
+  Max Pos    : Lat 41.734604 Lon -74.092804 Alt 80.000000 Spd 0.097000
+  Peak Pos   : Lat 41.734585 Lon -74.092827 Alt 76.300003
+  Avg Pos    : AvgLat 41.734574 AvgLon -74.092816 AvgAlt 74.698800
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 121 packets
+               Mon May 13 19:18:23 2019
+ Client 2: MAC C4:B3:01:BF:5F:53
+  Manuf      : Unknown
+  First      : Mon May 13 19:17:38 2019
+  Last       : Mon May 13 19:18:08 2019
+  Type       : From Distribution
+  MAC        : C4:B3:01:BF:5F:53
+  Channel    : 0
+  Frequency  : 2462 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 240
+  Min Pos    : Lat 41.734562 Lon -74.092812 Alt 67.300003 Spd 0.054000
+  Max Pos    : Lat 41.734592 Lon -74.092804 Alt 74.699997 Spd 0.056000
+  Peak Pos   : Lat 41.734562 Lon -74.092812 Alt 74.699997
+  Avg Pos    : AvgLat 41.734577 AvgLon -74.092808 AvgAlt 70.999900
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 2 packets
+               Mon May 13 19:18:08 2019
+Network 3: BSSID 46:74:23:4B:EC:16
+ Manuf      : Unknown
+ First      : Mon May 13 19:15:08 2019
+ Last       : Mon May 13 19:15:08 2019
+ Type       : probe
+ BSSID      : 46:74:23:4B:EC:16
+ Channel    : 0
+ Frequency  : 2452 - 4 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 4
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 4
+ Datasize   : 0
+ Min Pos    : Lat 41.734600 Lon -74.092804 Alt 69.800003 Spd 0.057000
+ Max Pos    : Lat 41.734600 Lon -74.092804 Alt 69.800003 Spd 0.057000
+ Peak Pos   : Lat 41.734600 Lon -74.092804 Alt 69.800003
+ Avg Pos    : AvgLat 41.734600 AvgLon -74.092804 AvgAlt 69.800000
+ Last BSSTS : May 13 19:15:08
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 4 packets
+              Mon May 13 19:15:08 2019
+ Client 1: MAC 46:74:23:4B:EC:16
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:08 2019
+  Last       : Mon May 13 19:15:08 2019
+  Type       : To Distribution
+  MAC        : 46:74:23:4B:EC:16
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Mon May 13 19:15:08 2019
+    Last       : Mon May 13 19:15:08 2019
+    Max Rate   : 72.2
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2452 - 4 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 4
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 4
+  Datasize   : 0
+  Min Pos    : Lat 41.734600 Lon -74.092804 Alt 69.800003 Spd 0.057000
+  Max Pos    : Lat 41.734600 Lon -74.092804 Alt 69.800003 Spd 0.057000
+  Peak Pos   : Lat 41.734600 Lon -74.092804 Alt 69.800003
+  Avg Pos    : AvgLat 41.734600 AvgLon -74.092804 AvgAlt 69.800000
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 4 packets
+               Mon May 13 19:15:08 2019
+Network 4: BSSID 5E:99:CA:03:8F:1A
+ Manuf      : Unknown
+ First      : Mon May 13 19:15:39 2019
+ Last       : Mon May 13 19:15:39 2019
+ Type       : probe
+ BSSID      : 5E:99:CA:03:8F:1A
+ Channel    : 0
+ Frequency  : 2432 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Min Pos    : Lat 41.734596 Lon -74.092812 Alt 72.599998 Spd 0.003000
+ Max Pos    : Lat 41.734596 Lon -74.092812 Alt 72.599998 Spd 0.003000
+ Peak Pos   : Lat 41.734596 Lon -74.092812 Alt 72.599998
+ Avg Pos    : AvgLat 41.734596 AvgLon -74.092811 AvgAlt 72.599900
+ Last BSSTS : May 13 19:15:39
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 1 packets
+              Mon May 13 19:15:39 2019
+ Client 1: MAC 5E:99:CA:03:8F:1A
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:39 2019
+  Last       : Mon May 13 19:15:39 2019
+  Type       : To Distribution
+  MAC        : 5E:99:CA:03:8F:1A
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Mon May 13 19:15:39 2019
+    Last       : Mon May 13 19:15:39 2019
+    Max Rate   : 72.2
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2432 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+  Min Pos    : Lat 41.734596 Lon -74.092812 Alt 72.599998 Spd 0.003000
+  Max Pos    : Lat 41.734596 Lon -74.092812 Alt 72.599998 Spd 0.003000
+  Peak Pos   : Lat 41.734596 Lon -74.092812 Alt 72.599998
+  Avg Pos    : AvgLat 41.734596 AvgLon -74.092811 AvgAlt 72.599900
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 1 packets
+               Mon May 13 19:15:39 2019
+Network 5: BSSID 84:89:AD:86:3B:71
+ Manuf      : Unknown
+ First      : Mon May 13 19:17:17 2019
+ Last       : Mon May 13 19:17:17 2019
+ Type       : probe
+ BSSID      : 84:89:AD:86:3B:71
+ Channel    : 0
+ Frequency  : 2457 - 6 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 6
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 6
+ Datasize   : 0
+ Min Pos    : Lat 41.734570 Lon -74.092819 Alt 73.400002 Spd 0.021000
+ Max Pos    : Lat 41.734570 Lon -74.092819 Alt 73.400002 Spd 0.021000
+ Peak Pos   : Lat 41.734570 Lon -74.092819 Alt 73.400002
+ Avg Pos    : AvgLat 41.734569 AvgLon -74.092819 AvgAlt 73.400000
+ Last BSSTS : May 13 19:17:17
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 6 packets
+              Mon May 13 19:17:17 2019
+ Client 1: MAC 84:89:AD:86:3B:71
+  Manuf      : Unknown
+  First      : Mon May 13 19:17:17 2019
+  Last       : Mon May 13 19:17:17 2019
+  Type       : To Distribution
+  MAC        : 84:89:AD:86:3B:71
+   SSID 1
+    Type       : Probe Request
+    SSID       : MySpectrumWiFi72-5G
+    First      : Mon May 13 19:17:17 2019
+    Last       : Mon May 13 19:17:17 2019
+    Max Rate   : 144.4
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2457 - 6 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 6
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 6
+  Datasize   : 0
+  Min Pos    : Lat 41.734570 Lon -74.092819 Alt 73.400002 Spd 0.021000
+  Max Pos    : Lat 41.734570 Lon -74.092819 Alt 73.400002 Spd 0.021000
+  Peak Pos   : Lat 41.734570 Lon -74.092819 Alt 73.400002
+  Avg Pos    : AvgLat 41.734569 AvgLon -74.092819 AvgAlt 73.400000
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 6 packets
+               Mon May 13 19:17:17 2019
+Network 6: BSSID A8:9A:93:8C:ED:9E
+ Manuf      : Unknown
+ First      : Mon May 13 19:15:18 2019
+ Last       : Mon May 13 19:18:23 2019
+ Type       : infrastructure
+ BSSID      : A8:9A:93:8C:ED:9E
+   SSID 1
+    Type       : Beacon
+    SSID       : "MySpectrumWiFi98-2G" 
+    First      : Mon May 13 19:15:18 2019
+    Last       : Mon May 13 19:18:23 2019
+    Max Rate   : 216.7
+    Beacon     : 10
+    Packets    : 100
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 11
+ Frequency  : 2462 - 102 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 100
+ Data       : 2
+ Crypt      : 1
+ Fragments  : 0
+ Retries    : 0
+ Total      : 102
+ Datasize   : 100
+ Min Pos    : Lat 41.734550 Lon -74.092827 Alt 66.699997 Spd 0.005000
+ Max Pos    : Lat 41.734604 Lon -74.092804 Alt 80.000000 Spd 0.097000
+ Peak Pos   : Lat 41.734592 Lon -74.092804 Alt 66.800003
+ Avg Pos    : AvgLat 41.734575 AvgLon -74.092816 AvgAlt 74.386500
+ Last BSSTS : Jan 25 17:25:42
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 102 packets
+              Mon May 13 19:18:23 2019
+ Client 1: MAC 64:27:37:79:7F:71
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:31 2019
+  Last       : Mon May 13 19:16:41 2019
+  Type       : To Distribution
+  MAC        : 64:27:37:79:7F:71
+  Channel    : 0
+  Frequency  : 2462 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 100
+  Min Pos    : Lat 41.734558 Lon -74.092819 Alt 71.500000 Spd 0.025000
+  Max Pos    : Lat 41.734596 Lon -74.092812 Alt 79.099998 Spd 0.057000
+  Peak Pos   : Lat 41.734558 Lon -74.092819 Alt 79.099998
+  Avg Pos    : AvgLat 41.734577 AvgLon -74.092815 AvgAlt 75.299900
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 2 packets
+               Mon May 13 19:16:41 2019
+ Client 2: MAC A8:9A:93:8C:ED:9E
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:18 2019
+  Last       : Mon May 13 19:18:23 2019
+  Type       : From Distribution
+  MAC        : A8:9A:93:8C:ED:9E
+  Channel    : 11
+  Frequency  : 2462 - 100 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 100
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 100
+  Datasize   : 0
+  Min Pos    : Lat 41.734550 Lon -74.092827 Alt 66.699997 Spd 0.005000
+  Max Pos    : Lat 41.734604 Lon -74.092804 Alt 80.000000 Spd 0.097000
+  Peak Pos   : Lat 41.734592 Lon -74.092804 Alt 66.800003
+  Avg Pos    : AvgLat 41.734575 AvgLon -74.092816 AvgAlt 74.368300
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 100 packets
+               Mon May 13 19:18:23 2019
+Network 7: BSSID AC:3B:77:23:7F:78
+ Manuf      : Unknown
+ First      : Mon May 13 19:15:07 2019
+ Last       : Mon May 13 19:18:25 2019
+ Type       : infrastructure
+ BSSID      : AC:3B:77:23:7F:78
+   SSID 1
+    Type       : Beacon
+    SSID       : "MySpectrumWiFi72-2G" 
+    First      : Mon May 13 19:15:07 2019
+    Last       : Mon May 13 19:18:25 2019
+    Max Rate   : 216.7
+    Beacon     : 10
+    Packets    : 832
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 6
+ Frequency  : 2417 - 38 packets, 4.14%
+ Frequency  : 2422 - 2 packets, 0.22%
+ Frequency  : 2427 - 7 packets, 0.76%
+ Frequency  : 2432 - 274 packets, 29.88%
+ Frequency  : 2437 - 301 packets, 32.82%
+ Frequency  : 2442 - 256 packets, 27.92%
+ Frequency  : 2447 - 39 packets, 4.25%
+ Max Seen   : 24000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ LLC        : 858
+ Data       : 59
+ Crypt      : 2
+ Fragments  : 0
+ Retries    : 0
+ Total      : 917
+ Datasize   : 6294
+ Min Pos    : Lat 41.734547 Lon -74.092827 Alt 66.400002 Spd 0.001000
+ Max Pos    : Lat 41.734604 Lon -74.092804 Alt 80.000000 Spd 0.092000
+ Peak Pos   : Lat 41.734592 Lon -74.092804 Alt 66.900002
+ Avg Pos    : AvgLat 41.734578 AvgLon -74.092816 AvgAlt 73.779400
+ Last BSSTS : May 13 18:22:31
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 917 packets
+              Mon May 13 19:18:25 2019
+ Client 1: MAC AC:3B:77:23:7F:74
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:28 2019
+  Last       : Mon May 13 19:16:26 2019
+  Type       : From Distribution
+  MAC        : AC:3B:77:23:7F:74
+  Channel    : 0
+  Frequency  : 2437 - 2 packets, 100.00%
+  Max Seen   : 11000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 228
+  Min Pos    : Lat 41.734573 Lon -74.092827 Alt 71.000000 Spd 0.010000
+  Max Pos    : Lat 41.734600 Lon -74.092812 Alt 78.800003 Spd 0.022000
+  Peak Pos   : Lat 41.734600 Lon -74.092812 Alt 71.000000
+  Avg Pos    : AvgLat 41.734587 AvgLon -74.092819 AvgAlt 74.900000
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 2 packets
+               Mon May 13 19:16:26 2019
+ Client 2: MAC AC:3B:77:23:7F:78
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:07 2019
+  Last       : Mon May 13 19:18:25 2019
+  Type       : From Distribution
+  MAC        : AC:3B:77:23:7F:78
+  Channel    : 6
+  Frequency  : 2417 - 38 packets, 4.36%
+  Frequency  : 2422 - 2 packets, 0.23%
+  Frequency  : 2427 - 7 packets, 0.80%
+  Frequency  : 2432 - 267 packets, 30.65%
+  Frequency  : 2437 - 270 packets, 31.00%
+  Frequency  : 2442 - 252 packets, 28.93%
+  Frequency  : 2447 - 35 packets, 4.02%
+  Max Seen   : 1000
+  LLC        : 850
+  Data       : 21
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 871
+  Datasize   : 2751
+  Min Pos    : Lat 41.734547 Lon -74.092827 Alt 66.400002 Spd 0.001000
+  Max Pos    : Lat 41.734604 Lon -74.092804 Alt 80.000000 Spd 0.092000
+  Peak Pos   : Lat 41.734600 Lon -74.092804 Alt 70.000000
+  Avg Pos    : AvgLat 41.734578 AvgLon -74.092816 AvgAlt 73.754200
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 871 packets
+               Mon May 13 19:18:25 2019
+ Client 3: MAC B8:63:4D:70:CF:DB
+  Manuf      : Unknown
+  First      : Mon May 13 19:16:02 2019
+  Last       : Mon May 13 19:18:24 2019
+  Type       : To Distribution
+  MAC        : B8:63:4D:70:CF:DB
+  Channel    : 0
+  Frequency  : 2437 - 13 packets, 76.47%
+  Frequency  : 2447 - 4 packets, 23.53%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 17
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 17
+  Datasize   : 408
+  Min Pos    : Lat 41.734547 Lon -74.092827 Alt 66.900002 Spd 0.016000
+  Max Pos    : Lat 41.734592 Lon -74.092804 Alt 79.599998 Spd 0.050000
+  Peak Pos   : Lat 41.734592 Lon -74.092804 Alt 66.900002
+  Avg Pos    : AvgLat 41.734571 AvgLon -74.092814 AvgAlt 73.682300
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 17 packets
+               Mon May 13 19:18:24 2019
+ Client 4: MAC C8:FF:77:E5:0F:8B
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:22 2019
+  Last       : Mon May 13 19:17:30 2019
+  Type       : Unknown
+  MAC        : C8:FF:77:E5:0F:8B
+  Channel    : 0
+  Frequency  : 2437 - 15 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 6
+  Data       : 9
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 15
+  Datasize   : 1377
+  Min Pos    : Lat 41.734558 Lon -74.092827 Alt 69.199997 Spd 0.007000
+  Max Pos    : Lat 41.734604 Lon -74.092804 Alt 79.599998 Spd 0.050000
+  Peak Pos   : Lat 41.734604 Lon -74.092804 Alt 69.199997
+  Avg Pos    : AvgLat 41.734578 AvgLon -74.092815 AvgAlt 73.479900
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 15 packets
+               Mon May 13 19:17:30 2019
+ Client 5: MAC F8:D0:27:8A:B8:A6
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:49 2019
+  Last       : Mon May 13 19:18:25 2019
+  Type       : To Distribution
+  MAC        : F8:D0:27:8A:B8:A6
+  Channel    : 0
+  Frequency  : 2432 - 7 packets, 58.33%
+  Frequency  : 2437 - 1 packets, 8.33%
+  Frequency  : 2442 - 4 packets, 33.33%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 10
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 12
+  Datasize   : 1530
+  Min Pos    : Lat 41.734547 Lon -74.092827 Alt 70.800003 Spd 0.011000
+  Max Pos    : Lat 41.734589 Lon -74.092812 Alt 79.400002 Spd 0.072000
+  Peak Pos   : Lat 41.734589 Lon -74.092819 Alt 74.900002
+  Avg Pos    : AvgLat 41.734569 AvgLon -74.092820 AvgAlt 75.933300
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 12 packets
+               Mon May 13 19:18:25 2019
+Network 8: BSSID AC:3B:77:23:7F:79
+ Manuf      : Unknown
+ First      : Mon May 13 19:17:17 2019
+ Last       : Mon May 13 19:17:17 2019
+ Type       : data
+ BSSID      : AC:3B:77:23:7F:79
+ Channel    : 0
+ Frequency  : 2457 - 13 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 0
+ Data       : 13
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 13
+ Datasize   : 312
+ Min Pos    : Lat 41.734570 Lon -74.092819 Alt 73.400002 Spd 0.021000
+ Max Pos    : Lat 41.734570 Lon -74.092819 Alt 73.400002 Spd 0.021000
+ Peak Pos   : Lat 41.734570 Lon -74.092819 Alt 73.400002
+ Avg Pos    : AvgLat 41.734569 AvgLon -74.092819 AvgAlt 73.400000
+ Last BSSTS : May 13 19:17:17
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 13 packets
+              Mon May 13 19:17:17 2019
+ Client 1: MAC 84:89:AD:86:3B:71
+  Manuf      : Unknown
+  First      : Mon May 13 19:17:17 2019
+  Last       : Mon May 13 19:17:17 2019
+  Type       : To Distribution
+  MAC        : 84:89:AD:86:3B:71
+  Channel    : 0
+  Frequency  : 2457 - 13 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 13
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 13
+  Datasize   : 312
+  Min Pos    : Lat 41.734570 Lon -74.092819 Alt 73.400002 Spd 0.021000
+  Max Pos    : Lat 41.734570 Lon -74.092819 Alt 73.400002 Spd 0.021000
+  Peak Pos   : Lat 41.734570 Lon -74.092819 Alt 73.400002
+  Avg Pos    : AvgLat 41.734569 AvgLon -74.092819 AvgAlt 73.400000
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 13 packets
+               Mon May 13 19:17:17 2019
+Network 9: BSSID C8:FF:77:E5:0F:8B
+ Manuf      : Unknown
+ First      : Mon May 13 19:15:13 2019
+ Last       : Mon May 13 19:18:23 2019
+ Type       : probe
+ BSSID      : C8:FF:77:E5:0F:8B
+ Channel    : 0
+ Frequency  : 2412 - 31 packets, 8.49%
+ Frequency  : 2417 - 30 packets, 8.22%
+ Frequency  : 2422 - 35 packets, 9.59%
+ Frequency  : 2427 - 28 packets, 7.67%
+ Frequency  : 2432 - 22 packets, 6.03%
+ Frequency  : 2437 - 33 packets, 9.04%
+ Frequency  : 2442 - 27 packets, 7.40%
+ Frequency  : 2447 - 41 packets, 11.23%
+ Frequency  : 2452 - 55 packets, 15.07%
+ Frequency  : 2457 - 36 packets, 9.86%
+ Frequency  : 2462 - 27 packets, 7.40%
+ Max Seen   : 1000
+ LLC        : 365
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 365
+ Datasize   : 0
+ Min Pos    : Lat 41.734550 Lon -74.092827 Alt 66.783997 Spd 0.003000
+ Max Pos    : Lat 41.734604 Lon -74.092804 Alt 80.000000 Spd 0.088000
+ Peak Pos   : Lat 41.734600 Lon -74.092804 Alt 70.199997
+ Avg Pos    : AvgLat 41.734578 AvgLon -74.092817 AvgAlt 74.265400
+ Last BSSTS : May 13 19:18:23
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 365 packets
+              Mon May 13 19:18:23 2019
+ Client 1: MAC C8:FF:77:E5:0F:8B
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:13 2019
+  Last       : Mon May 13 19:18:23 2019
+  Type       : To Distribution
+  MAC        : C8:FF:77:E5:0F:8B
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Mon May 13 19:18:23 2019
+    Last       : Mon May 13 19:18:23 2019
+    Max Rate   : 72.2
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+   SSID 2
+    Type       : Probe Request
+    SSID       : MySpectrumWiFi72-2G
+    First      : Mon May 13 19:18:10 2019
+    Last       : Mon May 13 19:18:10 2019
+    Max Rate   : 72.2
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2412 - 31 packets, 8.49%
+  Frequency  : 2417 - 30 packets, 8.22%
+  Frequency  : 2422 - 35 packets, 9.59%
+  Frequency  : 2427 - 28 packets, 7.67%
+  Frequency  : 2432 - 22 packets, 6.03%
+  Frequency  : 2437 - 33 packets, 9.04%
+  Frequency  : 2442 - 27 packets, 7.40%
+  Frequency  : 2447 - 41 packets, 11.23%
+  Frequency  : 2452 - 55 packets, 15.07%
+  Frequency  : 2457 - 36 packets, 9.86%
+  Frequency  : 2462 - 27 packets, 7.40%
+  Max Seen   : 1000
+  LLC        : 365
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 365
+  Datasize   : 0
+  Min Pos    : Lat 41.734550 Lon -74.092827 Alt 66.783997 Spd 0.003000
+  Max Pos    : Lat 41.734604 Lon -74.092804 Alt 80.000000 Spd 0.088000
+  Peak Pos   : Lat 41.734600 Lon -74.092804 Alt 70.199997
+  Avg Pos    : AvgLat 41.734578 AvgLon -74.092817 AvgAlt 74.265400
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 365 packets
+               Mon May 13 19:18:23 2019
+Network 10: BSSID F8:D0:27:8A:B8:A6
+ Manuf      : Unknown
+ First      : Mon May 13 19:15:09 2019
+ Last       : Mon May 13 19:18:20 2019
+ Type       : probe
+ BSSID      : F8:D0:27:8A:B8:A6
+ Channel    : 0
+ Frequency  : 2412 - 12 packets, 11.65%
+ Frequency  : 2417 - 3 packets, 2.91%
+ Frequency  : 2422 - 16 packets, 15.53%
+ Frequency  : 2427 - 11 packets, 10.68%
+ Frequency  : 2432 - 9 packets, 8.74%
+ Frequency  : 2437 - 9 packets, 8.74%
+ Frequency  : 2442 - 13 packets, 12.62%
+ Frequency  : 2447 - 12 packets, 11.65%
+ Frequency  : 2452 - 14 packets, 13.59%
+ Frequency  : 2457 - 2 packets, 1.94%
+ Frequency  : 2462 - 2 packets, 1.94%
+ Max Seen   : 1000
+ LLC        : 103
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 103
+ Datasize   : 0
+ Min Pos    : Lat 41.734550 Lon -74.092827 Alt 67.199997 Spd 0.005000
+ Max Pos    : Lat 41.734604 Lon -74.092804 Alt 79.800003 Spd 0.088000
+ Peak Pos   : Lat 41.734604 Lon -74.092804 Alt 69.000000
+ Avg Pos    : AvgLat 41.734578 AvgLon -74.092815 AvgAlt 73.794100
+ Last BSSTS : May 13 19:18:20
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 103 packets
+              Mon May 13 19:18:20 2019
+ Client 1: MAC F8:D0:27:8A:B8:A6
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:09 2019
+  Last       : Mon May 13 19:18:20 2019
+  Type       : To Distribution
+  MAC        : F8:D0:27:8A:B8:A6
+   SSID 1
+    Type       : Probe Request
+    SSID       : MySpectrumWiFi72-2G
+    First      : Mon May 13 19:18:20 2019
+    Last       : Mon May 13 19:18:20 2019
+    Max Rate   : 72.2
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2412 - 12 packets, 11.65%
+  Frequency  : 2417 - 3 packets, 2.91%
+  Frequency  : 2422 - 16 packets, 15.53%
+  Frequency  : 2427 - 11 packets, 10.68%
+  Frequency  : 2432 - 9 packets, 8.74%
+  Frequency  : 2437 - 9 packets, 8.74%
+  Frequency  : 2442 - 13 packets, 12.62%
+  Frequency  : 2447 - 12 packets, 11.65%
+  Frequency  : 2452 - 14 packets, 13.59%
+  Frequency  : 2457 - 2 packets, 1.94%
+  Frequency  : 2462 - 2 packets, 1.94%
+  Max Seen   : 1000
+  LLC        : 103
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 103
+  Datasize   : 0
+  Min Pos    : Lat 41.734550 Lon -74.092827 Alt 67.199997 Spd 0.005000
+  Max Pos    : Lat 41.734604 Lon -74.092804 Alt 79.800003 Spd 0.088000
+  Peak Pos   : Lat 41.734604 Lon -74.092804 Alt 69.000000
+  Avg Pos    : AvgLat 41.734578 AvgLon -74.092815 AvgAlt 73.794100
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 103 packets
+               Mon May 13 19:18:20 2019
+Network 11: BSSID FE:28:81:E3:96:A4
+ Manuf      : Unknown
+ First      : Mon May 13 19:15:16 2019
+ Last       : Mon May 13 19:15:16 2019
+ Type       : probe
+ BSSID      : FE:28:81:E3:96:A4
+ Channel    : 0
+ Frequency  : 2457 - 6 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 6
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 6
+ Datasize   : 0
+ Min Pos    : Lat 41.734604 Lon -74.092804 Alt 68.528000 Spd 0.024000
+ Max Pos    : Lat 41.734604 Lon -74.092804 Alt 68.900002 Spd 0.035000
+ Peak Pos   : Lat 41.734604 Lon -74.092804 Alt 68.900002
+ Avg Pos    : AvgLat 41.734604 AvgLon -74.092804 AvgAlt 68.837900
+ Last BSSTS : May 13 19:15:16
+    Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 6 packets
+              Mon May 13 19:15:16 2019
+ Client 1: MAC FE:28:81:E3:96:A4
+  Manuf      : Unknown
+  First      : Mon May 13 19:15:16 2019
+  Last       : Mon May 13 19:15:16 2019
+  Type       : To Distribution
+  MAC        : FE:28:81:E3:96:A4
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Mon May 13 19:15:16 2019
+    Last       : Mon May 13 19:15:16 2019
+    Max Rate   : 72.2
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2457 - 6 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 6
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 6
+  Datasize   : 0
+  Min Pos    : Lat 41.734604 Lon -74.092804 Alt 68.528000 Spd 0.024000
+  Max Pos    : Lat 41.734604 Lon -74.092804 Alt 68.900002 Spd 0.035000
+  Peak Pos   : Lat 41.734604 Lon -74.092804 Alt 68.900002
+  Avg Pos    : AvgLat 41.734604 AvgLon -74.092804 AvgAlt 68.837900
+     Seen By : wlan1mon (wlan1mon) f179ac58-75d4-11e9-bed2-5a05392b2d03 6 packets
+               Mon May 13 19:15:16 2019

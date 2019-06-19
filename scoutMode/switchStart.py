@@ -24,7 +24,7 @@ def activate():
 
 	print("[*] Activating Scout Mode")
 
-	os.system("./checkPrev.sh")
+	os.system("sudo ./checkPrev.sh")
 	time.sleep(.5)
 
 	print ("[*] Starting monitor mode")
@@ -37,7 +37,6 @@ def activate():
 
 def main():
 	try:
-		#time.sleep(20)		#Give the Pi some time to finish startup
 		blink()
 		while(True):
 			state = GPIO.input(5)

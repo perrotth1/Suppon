@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE detection-run SYSTEM "http://kismetwireless.net/kismet-3.1.0.dtd">
+
+<detection-run kismet-version="2016.07.R1" start-time="Mon May 13 19:15:05 2019">
+
+<card-source uuid="f179ac58-75d4-11e9-bed2-5a05392b2d03">
+ <card-source>wlan1mon</card-source>
+ <card-name>wlan1mon</card-name>
+ <card-interface>wlan1mon</card-interface>
+ <card-type>mac80211</card-type>
+ <card-packets>2040</card-packets>
+ <card-hop>true</card-hop>
+ <card-channels>1,5,9,2,6,10,3,7,11,4,8</card-channels>
+</card-source>
+  <wireless-network number="1" type="probe" first-time="Mon May 13 19:16:41 2019" last-time="Mon May 13 19:16:41 2019">
+    <BSSID>06:1E:94:C6:E8:94</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>0</channel>
+    <freqmhz>2462 1</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>1</LLC>
+       <data>0</data>
+       <crypt>0</crypt>
+       <total>1</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>0</datasize>
+    <snr-info>
+      <last_signal_dbm>-65</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-65</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-65</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734558</min-lat>
+      <min-lon>-74.092819</min-lon>
+      <min-alt>79.099998</min-alt>
+      <min-spd>0.057000</min-spd>
+      <max-lat>41.734558</max-lat>
+      <max-lon>-74.092819</max-lon>
+      <max-alt>79.099998</max-alt>
+      <max-spd>0.057000</max-spd>
+      <peak-lat>41.734558</peak-lat>
+      <peak-lon>-74.092819</peak-lon>
+      <peak-alt>79.099998</peak-alt>
+      <avg-lat>41.734558</avg-lat>
+      <avg-lon>-74.092819</avg-lon>
+      <avg-alt>79.099900</avg-alt>
+    </gps-info>
+    <bsstimestamp>May 13 19:16:41</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:16:41 2019</seen-time>
+     <seen-packets>1</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="tods" first-time="Mon May 13 19:16:41 2019" last-time="Mon May 13 19:16:41 2019">
+      <client-mac>06:1E:94:C6:E8:94</client-mac>
+      <client-manuf>Unknown</client-manuf>
+        <SSID first-time="Mon May 13 19:16:41 2019" last-time="Mon May 13 19:16:41 2019">
+            <type>Probe Request</type>
+            <max-rate>72.200000</max-rate>
+            <packets>1</packets>
+            <beaconrate>-1</beaconrate>
+            <encryption>None</encryption>
+        </SSID>
+      <channel>0</channel>
+      <freqmhz>2462 1</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>1</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>1</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-65</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-65</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-65</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734558</min-lat>
+        <min-lon>-74.092819</min-lon>
+        <min-alt>79.099998</min-alt>
+        <min-spd>0.057000</min-spd>
+        <max-lat>41.734558</max-lat>
+        <max-lon>-74.092819</max-lon>
+        <max-alt>79.099998</max-alt>
+        <max-spd>0.057000</max-spd>
+        <peak-lat>41.734558</peak-lat>
+        <peak-lon>-74.092819</peak-lon>
+        <peak-alt>79.099998</peak-alt>
+        <avg-lat>41.734558</avg-lat>
+        <avg-lon>-74.092819</avg-lon>
+        <avg-alt>79.099900</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:16:41 2019</seen-time>
+       <seen-packets>1</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="2" type="infrastructure" first-time="Mon May 13 19:15:11 2019" last-time="Mon May 13 19:18:23 2019">
+    <SSID first-time="Mon May 13 19:15:11 2019" last-time="Mon May 13 19:18:23 2019">
+        <type>Beacon</type>
+        <max-rate>600.000000</max-rate>
+        <packets>121</packets>
+        <beaconrate>10</beaconrate>
+        <wps>Configured</wps>
+        <wps-manuf>Askey Computer Corp.</wps-manuf>
+        <dev-name>RAC2V1K</dev-name>
+        <model-name>RAC2V1K</model-name>
+        <model-num>REV:1</model-num>
+        <encryption>WPA+PSK</encryption>
+        <encryption>WPA+AES-CCM</encryption>
+        <wpa-version>WPA2</wpa-version>
+        <essid cloaked="false">MySpectrumWiFi66-2G</essid>
+    </SSID>
+    <BSSID>1C:B0:44:CC:E6:64</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>11</channel>
+    <freqmhz>2457 4</freqmhz>
+    <freqmhz>2462 119</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>121</LLC>
+       <data>2</data>
+       <crypt>2</crypt>
+       <total>123</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>240</datasize>
+    <snr-info>
+      <last_signal_dbm>-88</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-95</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-83</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734550</min-lat>
+      <min-lon>-74.092827</min-lon>
+      <min-alt>66.699997</min-alt>
+      <min-spd>0.005000</min-spd>
+      <max-lat>41.734604</max-lat>
+      <max-lon>-74.092804</max-lon>
+      <max-alt>80.000000</max-alt>
+      <max-spd>0.097000</max-spd>
+      <peak-lat>41.734585</peak-lat>
+      <peak-lon>-74.092827</peak-lon>
+      <peak-alt>76.300003</peak-alt>
+      <avg-lat>41.734574</avg-lat>
+      <avg-lon>-74.092816</avg-lon>
+      <avg-alt>74.638700</avg-alt>
+    </gps-info>
+    <bsstimestamp>May  4 11:40:20</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:18:23 2019</seen-time>
+     <seen-packets>123</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="fromds" first-time="Mon May 13 19:15:11 2019" last-time="Mon May 13 19:18:23 2019">
+      <client-mac>1C:B0:44:CC:E6:64</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>11</channel>
+      <freqmhz>2457 4</freqmhz>
+      <freqmhz>2462 117</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>121</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>121</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-88</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-95</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-83</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734550</min-lat>
+        <min-lon>-74.092827</min-lon>
+        <min-alt>66.699997</min-alt>
+        <min-spd>0.005000</min-spd>
+        <max-lat>41.734604</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>80.000000</max-alt>
+        <max-spd>0.097000</max-spd>
+        <peak-lat>41.734585</peak-lat>
+        <peak-lon>-74.092827</peak-lon>
+        <peak-alt>76.300003</peak-alt>
+        <avg-lat>41.734574</avg-lat>
+        <avg-lon>-74.092816</avg-lon>
+        <avg-alt>74.698800</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:18:23 2019</seen-time>
+       <seen-packets>121</seen-packets>
+      </seen-card>
+    </wireless-client>
+    <wireless-client number="2" type="fromds" first-time="Mon May 13 19:17:38 2019" last-time="Mon May 13 19:18:08 2019">
+      <client-mac>C4:B3:01:BF:5F:53</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>0</channel>
+      <freqmhz>2462 2</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>0</LLC>
+         <data>2</data>
+         <crypt>2</crypt>
+         <total>2</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>240</datasize>
+      <snr-info>
+        <last_signal_dbm>-86</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-87</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-86</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734562</min-lat>
+        <min-lon>-74.092812</min-lon>
+        <min-alt>67.300003</min-alt>
+        <min-spd>0.054000</min-spd>
+        <max-lat>41.734592</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>74.699997</max-alt>
+        <max-spd>0.056000</max-spd>
+        <peak-lat>41.734562</peak-lat>
+        <peak-lon>-74.092812</peak-lon>
+        <peak-alt>74.699997</peak-alt>
+        <avg-lat>41.734577</avg-lat>
+        <avg-lon>-74.092808</avg-lon>
+        <avg-alt>70.999900</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:18:08 2019</seen-time>
+       <seen-packets>2</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="3" type="probe" first-time="Mon May 13 19:15:08 2019" last-time="Mon May 13 19:15:08 2019">
+    <BSSID>46:74:23:4B:EC:16</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>0</channel>
+    <freqmhz>2452 4</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>4</LLC>
+       <data>0</data>
+       <crypt>0</crypt>
+       <total>4</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>0</datasize>
+    <snr-info>
+      <last_signal_dbm>-64</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-66</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-62</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734600</min-lat>
+      <min-lon>-74.092804</min-lon>
+      <min-alt>69.800003</min-alt>
+      <min-spd>0.057000</min-spd>
+      <max-lat>41.734600</max-lat>
+      <max-lon>-74.092804</max-lon>
+      <max-alt>69.800003</max-alt>
+      <max-spd>0.057000</max-spd>
+      <peak-lat>41.734600</peak-lat>
+      <peak-lon>-74.092804</peak-lon>
+      <peak-alt>69.800003</peak-alt>
+      <avg-lat>41.734600</avg-lat>
+      <avg-lon>-74.092804</avg-lon>
+      <avg-alt>69.800000</avg-alt>
+    </gps-info>
+    <bsstimestamp>May 13 19:15:08</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:15:08 2019</seen-time>
+     <seen-packets>4</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="tods" first-time="Mon May 13 19:15:08 2019" last-time="Mon May 13 19:15:08 2019">
+      <client-mac>46:74:23:4B:EC:16</client-mac>
+      <client-manuf>Unknown</client-manuf>
+        <SSID first-time="Mon May 13 19:15:08 2019" last-time="Mon May 13 19:15:08 2019">
+            <type>Probe Request</type>
+            <max-rate>72.200000</max-rate>
+            <packets>1</packets>
+            <beaconrate>-1</beaconrate>
+            <encryption>None</encryption>
+        </SSID>
+      <channel>0</channel>
+      <freqmhz>2452 4</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>4</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>4</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-64</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-66</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-62</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734600</min-lat>
+        <min-lon>-74.092804</min-lon>
+        <min-alt>69.800003</min-alt>
+        <min-spd>0.057000</min-spd>
+        <max-lat>41.734600</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>69.800003</max-alt>
+        <max-spd>0.057000</max-spd>
+        <peak-lat>41.734600</peak-lat>
+        <peak-lon>-74.092804</peak-lon>
+        <peak-alt>69.800003</peak-alt>
+        <avg-lat>41.734600</avg-lat>
+        <avg-lon>-74.092804</avg-lon>
+        <avg-alt>69.800000</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:15:08 2019</seen-time>
+       <seen-packets>4</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="4" type="probe" first-time="Mon May 13 19:15:39 2019" last-time="Mon May 13 19:15:39 2019">
+    <BSSID>5E:99:CA:03:8F:1A</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>0</channel>
+    <freqmhz>2432 1</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>1</LLC>
+       <data>0</data>
+       <crypt>0</crypt>
+       <total>1</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>0</datasize>
+    <snr-info>
+      <last_signal_dbm>-84</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-84</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-84</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734596</min-lat>
+      <min-lon>-74.092812</min-lon>
+      <min-alt>72.599998</min-alt>
+      <min-spd>0.003000</min-spd>
+      <max-lat>41.734596</max-lat>
+      <max-lon>-74.092812</max-lon>
+      <max-alt>72.599998</max-alt>
+      <max-spd>0.003000</max-spd>
+      <peak-lat>41.734596</peak-lat>
+      <peak-lon>-74.092812</peak-lon>
+      <peak-alt>72.599998</peak-alt>
+      <avg-lat>41.734596</avg-lat>
+      <avg-lon>-74.092811</avg-lon>
+      <avg-alt>72.599900</avg-alt>
+    </gps-info>
+    <bsstimestamp>May 13 19:15:39</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:15:39 2019</seen-time>
+     <seen-packets>1</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="tods" first-time="Mon May 13 19:15:39 2019" last-time="Mon May 13 19:15:39 2019">
+      <client-mac>5E:99:CA:03:8F:1A</client-mac>
+      <client-manuf>Unknown</client-manuf>
+        <SSID first-time="Mon May 13 19:15:39 2019" last-time="Mon May 13 19:15:39 2019">
+            <type>Probe Request</type>
+            <max-rate>72.200000</max-rate>
+            <packets>1</packets>
+            <beaconrate>-1</beaconrate>
+            <encryption>None</encryption>
+        </SSID>
+      <channel>0</channel>
+      <freqmhz>2432 1</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>1</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>1</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-84</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-84</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-84</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734596</min-lat>
+        <min-lon>-74.092812</min-lon>
+        <min-alt>72.599998</min-alt>
+        <min-spd>0.003000</min-spd>
+        <max-lat>41.734596</max-lat>
+        <max-lon>-74.092812</max-lon>
+        <max-alt>72.599998</max-alt>
+        <max-spd>0.003000</max-spd>
+        <peak-lat>41.734596</peak-lat>
+        <peak-lon>-74.092812</peak-lon>
+        <peak-alt>72.599998</peak-alt>
+        <avg-lat>41.734596</avg-lat>
+        <avg-lon>-74.092811</avg-lon>
+        <avg-alt>72.599900</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:15:39 2019</seen-time>
+       <seen-packets>1</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="5" type="probe" first-time="Mon May 13 19:17:17 2019" last-time="Mon May 13 19:17:17 2019">
+    <BSSID>84:89:AD:86:3B:71</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>0</channel>
+    <freqmhz>2457 6</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>6</LLC>
+       <data>0</data>
+       <crypt>0</crypt>
+       <total>6</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>0</datasize>
+    <snr-info>
+      <last_signal_dbm>-71</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-79</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-71</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734570</min-lat>
+      <min-lon>-74.092819</min-lon>
+      <min-alt>73.400002</min-alt>
+      <min-spd>0.021000</min-spd>
+      <max-lat>41.734570</max-lat>
+      <max-lon>-74.092819</max-lon>
+      <max-alt>73.400002</max-alt>
+      <max-spd>0.021000</max-spd>
+      <peak-lat>41.734570</peak-lat>
+      <peak-lon>-74.092819</peak-lon>
+      <peak-alt>73.400002</peak-alt>
+      <avg-lat>41.734569</avg-lat>
+      <avg-lon>-74.092819</avg-lon>
+      <avg-alt>73.400000</avg-alt>
+    </gps-info>
+    <bsstimestamp>May 13 19:17:17</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:17:17 2019</seen-time>
+     <seen-packets>6</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="tods" first-time="Mon May 13 19:17:17 2019" last-time="Mon May 13 19:17:17 2019">
+      <client-mac>84:89:AD:86:3B:71</client-mac>
+      <client-manuf>Unknown</client-manuf>
+        <SSID first-time="Mon May 13 19:17:17 2019" last-time="Mon May 13 19:17:17 2019">
+            <type>Probe Request</type>
+            <max-rate>144.400000</max-rate>
+            <packets>1</packets>
+            <beaconrate>-1</beaconrate>
+            <encryption>None</encryption>
+            <ssid>MySpectrumWiFi72-5G</ssid>
+        </SSID>
+      <channel>0</channel>
+      <freqmhz>2457 6</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>6</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>6</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-71</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-79</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-71</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734570</min-lat>
+        <min-lon>-74.092819</min-lon>
+        <min-alt>73.400002</min-alt>
+        <min-spd>0.021000</min-spd>
+        <max-lat>41.734570</max-lat>
+        <max-lon>-74.092819</max-lon>
+        <max-alt>73.400002</max-alt>
+        <max-spd>0.021000</max-spd>
+        <peak-lat>41.734570</peak-lat>
+        <peak-lon>-74.092819</peak-lon>
+        <peak-alt>73.400002</peak-alt>
+        <avg-lat>41.734569</avg-lat>
+        <avg-lon>-74.092819</avg-lon>
+        <avg-alt>73.400000</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:17:17 2019</seen-time>
+       <seen-packets>6</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="6" type="infrastructure" first-time="Mon May 13 19:15:18 2019" last-time="Mon May 13 19:18:23 2019">
+    <SSID first-time="Mon May 13 19:15:18 2019" last-time="Mon May 13 19:18:23 2019">
+        <type>Beacon</type>
+        <max-rate>216.700000</max-rate>
+        <packets>100</packets>
+        <beaconrate>10</beaconrate>
+        <wps>No</wps>
+        <encryption>WPA+PSK</encryption>
+        <encryption>WPA+AES-CCM</encryption>
+        <wpa-version>WPA2</wpa-version>
+        <essid cloaked="false">MySpectrumWiFi98-2G</essid>
+    </SSID>
+    <BSSID>A8:9A:93:8C:ED:9E</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>11</channel>
+    <freqmhz>2462 102</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>100</LLC>
+       <data>2</data>
+       <crypt>1</crypt>
+       <total>102</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>100</datasize>
+    <snr-info>
+      <last_signal_dbm>-93</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-93</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-85</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734550</min-lat>
+      <min-lon>-74.092827</min-lon>
+      <min-alt>66.699997</min-alt>
+      <min-spd>0.005000</min-spd>
+      <max-lat>41.734604</max-lat>
+      <max-lon>-74.092804</max-lon>
+      <max-alt>80.000000</max-alt>
+      <max-spd>0.097000</max-spd>
+      <peak-lat>41.734592</peak-lat>
+      <peak-lon>-74.092804</peak-lon>
+      <peak-alt>66.800003</peak-alt>
+      <avg-lat>41.734575</avg-lat>
+      <avg-lon>-74.092816</avg-lon>
+      <avg-alt>74.386500</avg-alt>
+    </gps-info>
+    <bsstimestamp>Jan 25 17:25:42</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:18:23 2019</seen-time>
+     <seen-packets>102</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="tods" first-time="Mon May 13 19:15:31 2019" last-time="Mon May 13 19:16:41 2019">
+      <client-mac>64:27:37:79:7F:71</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>0</channel>
+      <freqmhz>2462 2</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>0</LLC>
+         <data>2</data>
+         <crypt>1</crypt>
+         <total>2</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>100</datasize>
+      <snr-info>
+        <last_signal_dbm>-90</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-92</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-90</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734558</min-lat>
+        <min-lon>-74.092819</min-lon>
+        <min-alt>71.500000</min-alt>
+        <min-spd>0.025000</min-spd>
+        <max-lat>41.734596</max-lat>
+        <max-lon>-74.092812</max-lon>
+        <max-alt>79.099998</max-alt>
+        <max-spd>0.057000</max-spd>
+        <peak-lat>41.734558</peak-lat>
+        <peak-lon>-74.092819</peak-lon>
+        <peak-alt>79.099998</peak-alt>
+        <avg-lat>41.734577</avg-lat>
+        <avg-lon>-74.092815</avg-lon>
+        <avg-alt>75.299900</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:16:41 2019</seen-time>
+       <seen-packets>2</seen-packets>
+      </seen-card>
+    </wireless-client>
+    <wireless-client number="2" type="fromds" first-time="Mon May 13 19:15:18 2019" last-time="Mon May 13 19:18:23 2019">
+      <client-mac>A8:9A:93:8C:ED:9E</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>11</channel>
+      <freqmhz>2462 100</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>100</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>100</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-93</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-93</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-85</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734550</min-lat>
+        <min-lon>-74.092827</min-lon>
+        <min-alt>66.699997</min-alt>
+        <min-spd>0.005000</min-spd>
+        <max-lat>41.734604</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>80.000000</max-alt>
+        <max-spd>0.097000</max-spd>
+        <peak-lat>41.734592</peak-lat>
+        <peak-lon>-74.092804</peak-lon>
+        <peak-alt>66.800003</peak-alt>
+        <avg-lat>41.734575</avg-lat>
+        <avg-lon>-74.092816</avg-lon>
+        <avg-alt>74.368300</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:18:23 2019</seen-time>
+       <seen-packets>100</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="7" type="infrastructure" first-time="Mon May 13 19:15:07 2019" last-time="Mon May 13 19:18:25 2019">
+    <SSID first-time="Mon May 13 19:15:07 2019" last-time="Mon May 13 19:18:25 2019">
+        <type>Beacon</type>
+        <max-rate>216.700000</max-rate>
+        <packets>832</packets>
+        <beaconrate>10</beaconrate>
+        <wps>No</wps>
+        <encryption>WPA+PSK</encryption>
+        <encryption>WPA+AES-CCM</encryption>
+        <wpa-version>WPA2</wpa-version>
+        <essid cloaked="false">MySpectrumWiFi72-2G</essid>
+    </SSID>
+    <BSSID>AC:3B:77:23:7F:78</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>6</channel>
+    <freqmhz>2417 38</freqmhz>
+    <freqmhz>2422 2</freqmhz>
+    <freqmhz>2427 7</freqmhz>
+    <freqmhz>2432 274</freqmhz>
+    <freqmhz>2437 301</freqmhz>
+    <freqmhz>2442 256</freqmhz>
+    <freqmhz>2447 39</freqmhz>
+    <maxseenrate>24000</maxseenrate>
+    <carrier>IEEE 802.11b+</carrier>
+    <encoding>CCK</encoding>
+     <packets>
+       <LLC>858</LLC>
+       <data>59</data>
+       <crypt>2</crypt>
+       <total>917</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>6294</datasize>
+    <snr-info>
+      <last_signal_dbm>-49</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-90</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-29</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734547</min-lat>
+      <min-lon>-74.092827</min-lon>
+      <min-alt>66.400002</min-alt>
+      <min-spd>0.001000</min-spd>
+      <max-lat>41.734604</max-lat>
+      <max-lon>-74.092804</max-lon>
+      <max-alt>80.000000</max-alt>
+      <max-spd>0.092000</max-spd>
+      <peak-lat>41.734592</peak-lat>
+      <peak-lon>-74.092804</peak-lon>
+      <peak-alt>66.900002</peak-alt>
+      <avg-lat>41.734578</avg-lat>
+      <avg-lon>-74.092816</avg-lon>
+      <avg-alt>73.779400</avg-alt>
+    </gps-info>
+    <bsstimestamp>May 13 18:22:31</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:18:25 2019</seen-time>
+     <seen-packets>917</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="fromds" first-time="Mon May 13 19:15:28 2019" last-time="Mon May 13 19:16:26 2019">
+      <client-mac>AC:3B:77:23:7F:74</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>0</channel>
+      <freqmhz>2437 2</freqmhz>
+      <maxseenrate>11000</maxseenrate>
+       <packets>
+         <LLC>0</LLC>
+         <data>2</data>
+         <crypt>2</crypt>
+         <total>2</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>228</datasize>
+      <snr-info>
+        <last_signal_dbm>-46</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-46</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-45</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734573</min-lat>
+        <min-lon>-74.092827</min-lon>
+        <min-alt>71.000000</min-alt>
+        <min-spd>0.010000</min-spd>
+        <max-lat>41.734600</max-lat>
+        <max-lon>-74.092812</max-lon>
+        <max-alt>78.800003</max-alt>
+        <max-spd>0.022000</max-spd>
+        <peak-lat>41.734600</peak-lat>
+        <peak-lon>-74.092812</peak-lon>
+        <peak-alt>71.000000</peak-alt>
+        <avg-lat>41.734587</avg-lat>
+        <avg-lon>-74.092819</avg-lon>
+        <avg-alt>74.900000</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:16:26 2019</seen-time>
+       <seen-packets>2</seen-packets>
+      </seen-card>
+    </wireless-client>
+    <wireless-client number="2" type="fromds" first-time="Mon May 13 19:15:07 2019" last-time="Mon May 13 19:18:25 2019">
+      <client-mac>AC:3B:77:23:7F:78</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>6</channel>
+      <freqmhz>2417 38</freqmhz>
+      <freqmhz>2422 2</freqmhz>
+      <freqmhz>2427 7</freqmhz>
+      <freqmhz>2432 267</freqmhz>
+      <freqmhz>2437 270</freqmhz>
+      <freqmhz>2442 252</freqmhz>
+      <freqmhz>2447 35</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>850</LLC>
+         <data>21</data>
+         <crypt>0</crypt>
+         <total>871</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>2751</datasize>
+      <snr-info>
+        <last_signal_dbm>-49</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-90</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-41</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734547</min-lat>
+        <min-lon>-74.092827</min-lon>
+        <min-alt>66.400002</min-alt>
+        <min-spd>0.001000</min-spd>
+        <max-lat>41.734604</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>80.000000</max-alt>
+        <max-spd>0.092000</max-spd>
+        <peak-lat>41.734600</peak-lat>
+        <peak-lon>-74.092804</peak-lon>
+        <peak-alt>70.000000</peak-alt>
+        <avg-lat>41.734578</avg-lat>
+        <avg-lon>-74.092816</avg-lon>
+        <avg-alt>73.754200</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:18:25 2019</seen-time>
+       <seen-packets>871</seen-packets>
+      </seen-card>
+    </wireless-client>
+    <wireless-client number="3" type="tods" first-time="Mon May 13 19:16:02 2019" last-time="Mon May 13 19:18:24 2019">
+      <client-mac>B8:63:4D:70:CF:DB</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>0</channel>
+      <freqmhz>2437 13</freqmhz>
+      <freqmhz>2447 4</freqmhz>
+      <maxseenrate>24000</maxseenrate>
+      <carrier>IEEE 802.11b+</carrier>
+      <encoding>CCK</encoding>
+       <packets>
+         <LLC>0</LLC>
+         <data>17</data>
+         <crypt>0</crypt>
+         <total>17</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>408</datasize>
+      <snr-info>
+        <last_signal_dbm>-35</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-45</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-29</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734547</min-lat>
+        <min-lon>-74.092827</min-lon>
+        <min-alt>66.900002</min-alt>
+        <min-spd>0.016000</min-spd>
+        <max-lat>41.734592</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>79.599998</max-alt>
+        <max-spd>0.050000</max-spd>
+        <peak-lat>41.734592</peak-lat>
+        <peak-lon>-74.092804</peak-lon>
+        <peak-alt>66.900002</peak-alt>
+        <avg-lat>41.734571</avg-lat>
+        <avg-lon>-74.092814</avg-lon>
+        <avg-alt>73.682300</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:18:24 2019</seen-time>
+       <seen-packets>17</seen-packets>
+      </seen-card>
+    </wireless-client>
+    <wireless-client number="4" type="unknown" first-time="Mon May 13 19:15:22 2019" last-time="Mon May 13 19:17:30 2019">
+      <client-mac>C8:FF:77:E5:0F:8B</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>0</channel>
+      <freqmhz>2437 15</freqmhz>
+      <maxseenrate>24000</maxseenrate>
+      <carrier>IEEE 802.11b+</carrier>
+      <encoding>CCK</encoding>
+       <packets>
+         <LLC>6</LLC>
+         <data>9</data>
+         <crypt>0</crypt>
+         <total>15</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>1377</datasize>
+      <snr-info>
+        <last_signal_dbm>-69</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-75</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-66</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734558</min-lat>
+        <min-lon>-74.092827</min-lon>
+        <min-alt>69.199997</min-alt>
+        <min-spd>0.007000</min-spd>
+        <max-lat>41.734604</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>79.599998</max-alt>
+        <max-spd>0.050000</max-spd>
+        <peak-lat>41.734604</peak-lat>
+        <peak-lon>-74.092804</peak-lon>
+        <peak-alt>69.199997</peak-alt>
+        <avg-lat>41.734578</avg-lat>
+        <avg-lon>-74.092815</avg-lon>
+        <avg-alt>73.479900</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:17:30 2019</seen-time>
+       <seen-packets>15</seen-packets>
+      </seen-card>
+    </wireless-client>
+    <wireless-client number="5" type="tods" first-time="Mon May 13 19:15:49 2019" last-time="Mon May 13 19:18:25 2019">
+      <client-mac>F8:D0:27:8A:B8:A6</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>0</channel>
+      <freqmhz>2432 7</freqmhz>
+      <freqmhz>2437 1</freqmhz>
+      <freqmhz>2442 4</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>2</LLC>
+         <data>10</data>
+         <crypt>0</crypt>
+         <total>12</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>1530</datasize>
+      <snr-info>
+        <last_signal_dbm>-69</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-70</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-66</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734547</min-lat>
+        <min-lon>-74.092827</min-lon>
+        <min-alt>70.800003</min-alt>
+        <min-spd>0.011000</min-spd>
+        <max-lat>41.734589</max-lat>
+        <max-lon>-74.092812</max-lon>
+        <max-alt>79.400002</max-alt>
+        <max-spd>0.072000</max-spd>
+        <peak-lat>41.734589</peak-lat>
+        <peak-lon>-74.092819</peak-lon>
+        <peak-alt>74.900002</peak-alt>
+        <avg-lat>41.734569</avg-lat>
+        <avg-lon>-74.092820</avg-lon>
+        <avg-alt>75.933300</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:18:25 2019</seen-time>
+       <seen-packets>12</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="8" type="data" first-time="Mon May 13 19:17:17 2019" last-time="Mon May 13 19:17:17 2019">
+    <BSSID>AC:3B:77:23:7F:79</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>0</channel>
+    <freqmhz>2457 13</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>0</LLC>
+       <data>13</data>
+       <crypt>0</crypt>
+       <total>13</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>312</datasize>
+    <snr-info>
+      <last_signal_dbm>-76</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-78</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-72</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734570</min-lat>
+      <min-lon>-74.092819</min-lon>
+      <min-alt>73.400002</min-alt>
+      <min-spd>0.021000</min-spd>
+      <max-lat>41.734570</max-lat>
+      <max-lon>-74.092819</max-lon>
+      <max-alt>73.400002</max-alt>
+      <max-spd>0.021000</max-spd>
+      <peak-lat>41.734570</peak-lat>
+      <peak-lon>-74.092819</peak-lon>
+      <peak-alt>73.400002</peak-alt>
+      <avg-lat>41.734569</avg-lat>
+      <avg-lon>-74.092819</avg-lon>
+      <avg-alt>73.400000</avg-alt>
+    </gps-info>
+    <bsstimestamp>May 13 19:17:17</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:17:17 2019</seen-time>
+     <seen-packets>13</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="tods" first-time="Mon May 13 19:17:17 2019" last-time="Mon May 13 19:17:17 2019">
+      <client-mac>84:89:AD:86:3B:71</client-mac>
+      <client-manuf>Unknown</client-manuf>
+      <channel>0</channel>
+      <freqmhz>2457 13</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>0</LLC>
+         <data>13</data>
+         <crypt>0</crypt>
+         <total>13</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>312</datasize>
+      <snr-info>
+        <last_signal_dbm>-76</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-78</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-72</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734570</min-lat>
+        <min-lon>-74.092819</min-lon>
+        <min-alt>73.400002</min-alt>
+        <min-spd>0.021000</min-spd>
+        <max-lat>41.734570</max-lat>
+        <max-lon>-74.092819</max-lon>
+        <max-alt>73.400002</max-alt>
+        <max-spd>0.021000</max-spd>
+        <peak-lat>41.734570</peak-lat>
+        <peak-lon>-74.092819</peak-lon>
+        <peak-alt>73.400002</peak-alt>
+        <avg-lat>41.734569</avg-lat>
+        <avg-lon>-74.092819</avg-lon>
+        <avg-alt>73.400000</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:17:17 2019</seen-time>
+       <seen-packets>13</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="9" type="probe" first-time="Mon May 13 19:15:13 2019" last-time="Mon May 13 19:18:23 2019">
+    <BSSID>C8:FF:77:E5:0F:8B</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>0</channel>
+    <freqmhz>2412 31</freqmhz>
+    <freqmhz>2417 30</freqmhz>
+    <freqmhz>2422 35</freqmhz>
+    <freqmhz>2427 28</freqmhz>
+    <freqmhz>2432 22</freqmhz>
+    <freqmhz>2437 33</freqmhz>
+    <freqmhz>2442 27</freqmhz>
+    <freqmhz>2447 41</freqmhz>
+    <freqmhz>2452 55</freqmhz>
+    <freqmhz>2457 36</freqmhz>
+    <freqmhz>2462 27</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>365</LLC>
+       <data>0</data>
+       <crypt>0</crypt>
+       <total>365</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>0</datasize>
+    <snr-info>
+      <last_signal_dbm>-68</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-80</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-59</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734550</min-lat>
+      <min-lon>-74.092827</min-lon>
+      <min-alt>66.783997</min-alt>
+      <min-spd>0.003000</min-spd>
+      <max-lat>41.734604</max-lat>
+      <max-lon>-74.092804</max-lon>
+      <max-alt>80.000000</max-alt>
+      <max-spd>0.088000</max-spd>
+      <peak-lat>41.734600</peak-lat>
+      <peak-lon>-74.092804</peak-lon>
+      <peak-alt>70.199997</peak-alt>
+      <avg-lat>41.734578</avg-lat>
+      <avg-lon>-74.092817</avg-lon>
+      <avg-alt>74.265400</avg-alt>
+    </gps-info>
+    <bsstimestamp>May 13 19:18:23</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:18:23 2019</seen-time>
+     <seen-packets>365</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="tods" first-time="Mon May 13 19:15:13 2019" last-time="Mon May 13 19:18:23 2019">
+      <client-mac>C8:FF:77:E5:0F:8B</client-mac>
+      <client-manuf>Unknown</client-manuf>
+        <SSID first-time="Mon May 13 19:18:23 2019" last-time="Mon May 13 19:18:23 2019">
+            <type>Probe Request</type>
+            <max-rate>72.200000</max-rate>
+            <packets>1</packets>
+            <beaconrate>-1</beaconrate>
+            <encryption>None</encryption>
+        </SSID>
+        <SSID first-time="Mon May 13 19:18:10 2019" last-time="Mon May 13 19:18:10 2019">
+            <type>Probe Request</type>
+            <max-rate>72.200000</max-rate>
+            <packets>1</packets>
+            <beaconrate>-1</beaconrate>
+            <encryption>None</encryption>
+            <ssid>MySpectrumWiFi72-2G</ssid>
+        </SSID>
+      <channel>0</channel>
+      <freqmhz>2412 31</freqmhz>
+      <freqmhz>2417 30</freqmhz>
+      <freqmhz>2422 35</freqmhz>
+      <freqmhz>2427 28</freqmhz>
+      <freqmhz>2432 22</freqmhz>
+      <freqmhz>2437 33</freqmhz>
+      <freqmhz>2442 27</freqmhz>
+      <freqmhz>2447 41</freqmhz>
+      <freqmhz>2452 55</freqmhz>
+      <freqmhz>2457 36</freqmhz>
+      <freqmhz>2462 27</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>365</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>365</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-68</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-80</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-59</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734550</min-lat>
+        <min-lon>-74.092827</min-lon>
+        <min-alt>66.783997</min-alt>
+        <min-spd>0.003000</min-spd>
+        <max-lat>41.734604</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>80.000000</max-alt>
+        <max-spd>0.088000</max-spd>
+        <peak-lat>41.734600</peak-lat>
+        <peak-lon>-74.092804</peak-lon>
+        <peak-alt>70.199997</peak-alt>
+        <avg-lat>41.734578</avg-lat>
+        <avg-lon>-74.092817</avg-lon>
+        <avg-alt>74.265400</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:18:23 2019</seen-time>
+       <seen-packets>365</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="10" type="probe" first-time="Mon May 13 19:15:09 2019" last-time="Mon May 13 19:18:20 2019">
+    <BSSID>F8:D0:27:8A:B8:A6</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>0</channel>
+    <freqmhz>2412 12</freqmhz>
+    <freqmhz>2417 3</freqmhz>
+    <freqmhz>2422 16</freqmhz>
+    <freqmhz>2427 11</freqmhz>
+    <freqmhz>2432 9</freqmhz>
+    <freqmhz>2437 9</freqmhz>
+    <freqmhz>2442 13</freqmhz>
+    <freqmhz>2447 12</freqmhz>
+    <freqmhz>2452 14</freqmhz>
+    <freqmhz>2457 2</freqmhz>
+    <freqmhz>2462 2</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>103</LLC>
+       <data>0</data>
+       <crypt>0</crypt>
+       <total>103</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>0</datasize>
+    <snr-info>
+      <last_signal_dbm>-64</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-78</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-59</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734550</min-lat>
+      <min-lon>-74.092827</min-lon>
+      <min-alt>67.199997</min-alt>
+      <min-spd>0.005000</min-spd>
+      <max-lat>41.734604</max-lat>
+      <max-lon>-74.092804</max-lon>
+      <max-alt>79.800003</max-alt>
+      <max-spd>0.088000</max-spd>
+      <peak-lat>41.734604</peak-lat>
+      <peak-lon>-74.092804</peak-lon>
+      <peak-alt>69.000000</peak-alt>
+      <avg-lat>41.734578</avg-lat>
+      <avg-lon>-74.092815</avg-lon>
+      <avg-alt>73.794100</avg-alt>
+    </gps-info>
+    <bsstimestamp>May 13 19:18:20</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:18:20 2019</seen-time>
+     <seen-packets>103</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="tods" first-time="Mon May 13 19:15:09 2019" last-time="Mon May 13 19:18:20 2019">
+      <client-mac>F8:D0:27:8A:B8:A6</client-mac>
+      <client-manuf>Unknown</client-manuf>
+        <SSID first-time="Mon May 13 19:18:20 2019" last-time="Mon May 13 19:18:20 2019">
+            <type>Probe Request</type>
+            <max-rate>72.200000</max-rate>
+            <packets>1</packets>
+            <beaconrate>-1</beaconrate>
+            <encryption>None</encryption>
+            <ssid>MySpectrumWiFi72-2G</ssid>
+        </SSID>
+      <channel>0</channel>
+      <freqmhz>2412 12</freqmhz>
+      <freqmhz>2417 3</freqmhz>
+      <freqmhz>2422 16</freqmhz>
+      <freqmhz>2427 11</freqmhz>
+      <freqmhz>2432 9</freqmhz>
+      <freqmhz>2437 9</freqmhz>
+      <freqmhz>2442 13</freqmhz>
+      <freqmhz>2447 12</freqmhz>
+      <freqmhz>2452 14</freqmhz>
+      <freqmhz>2457 2</freqmhz>
+      <freqmhz>2462 2</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>103</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>103</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-64</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-78</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-59</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734550</min-lat>
+        <min-lon>-74.092827</min-lon>
+        <min-alt>67.199997</min-alt>
+        <min-spd>0.005000</min-spd>
+        <max-lat>41.734604</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>79.800003</max-alt>
+        <max-spd>0.088000</max-spd>
+        <peak-lat>41.734604</peak-lat>
+        <peak-lon>-74.092804</peak-lon>
+        <peak-alt>69.000000</peak-alt>
+        <avg-lat>41.734578</avg-lat>
+        <avg-lon>-74.092815</avg-lon>
+        <avg-alt>73.794100</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:18:20 2019</seen-time>
+       <seen-packets>103</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+  <wireless-network number="11" type="probe" first-time="Mon May 13 19:15:16 2019" last-time="Mon May 13 19:15:16 2019">
+    <BSSID>FE:28:81:E3:96:A4</BSSID>
+    <manuf>Unknown</manuf>
+    <channel>0</channel>
+    <freqmhz>2457 6</freqmhz>
+    <maxseenrate>1000</maxseenrate>
+     <packets>
+       <LLC>6</LLC>
+       <data>0</data>
+       <crypt>0</crypt>
+       <total>6</total>
+       <fragments>0</fragments>
+       <retries>0</retries>
+     </packets>
+     <datasize>0</datasize>
+    <snr-info>
+      <last_signal_dbm>-69</last_signal_dbm>
+      <last_noise_dbm>0</last_noise_dbm>
+      <last_signal_rssi>0</last_signal_rssi>
+      <last_noise_rssi>0</last_noise_rssi>
+      <min_signal_dbm>-70</min_signal_dbm>
+      <min_noise_dbm>0</min_noise_dbm>
+      <min_signal_rssi>1024</min_signal_rssi>
+      <min_noise_rssi>1024</min_noise_rssi>
+      <max_signal_dbm>-66</max_signal_dbm>
+      <max_noise_dbm>-256</max_noise_dbm>
+      <max_signal_rssi>0</max_signal_rssi>
+      <max_noise_rssi>0</max_noise_rssi>
+    </snr-info>
+    <gps-info>
+      <min-lat>41.734604</min-lat>
+      <min-lon>-74.092804</min-lon>
+      <min-alt>68.528000</min-alt>
+      <min-spd>0.024000</min-spd>
+      <max-lat>41.734604</max-lat>
+      <max-lon>-74.092804</max-lon>
+      <max-alt>68.900002</max-alt>
+      <max-spd>0.035000</max-spd>
+      <peak-lat>41.734604</peak-lat>
+      <peak-lon>-74.092804</peak-lon>
+      <peak-alt>68.900002</peak-alt>
+      <avg-lat>41.734604</avg-lat>
+      <avg-lon>-74.092804</avg-lon>
+      <avg-alt>68.837900</avg-alt>
+    </gps-info>
+    <bsstimestamp>May 13 19:15:16</bsstimestamp>
+    <cdp-device></cdp-device>
+    <cdp-portid></cdp-portid>
+    <seen-card>
+     <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+     <seen-time>Mon May 13 19:15:16 2019</seen-time>
+     <seen-packets>6</seen-packets>
+    </seen-card>
+    <wireless-client number="1" type="tods" first-time="Mon May 13 19:15:16 2019" last-time="Mon May 13 19:15:16 2019">
+      <client-mac>FE:28:81:E3:96:A4</client-mac>
+      <client-manuf>Unknown</client-manuf>
+        <SSID first-time="Mon May 13 19:15:16 2019" last-time="Mon May 13 19:15:16 2019">
+            <type>Probe Request</type>
+            <max-rate>72.200000</max-rate>
+            <packets>1</packets>
+            <beaconrate>-1</beaconrate>
+            <encryption>None</encryption>
+        </SSID>
+      <channel>0</channel>
+      <freqmhz>2457 6</freqmhz>
+      <maxseenrate>1000</maxseenrate>
+       <packets>
+         <LLC>6</LLC>
+         <data>0</data>
+         <crypt>0</crypt>
+         <total>6</total>
+         <fragments>0</fragments>
+         <retries>0</retries>
+       </packets>
+       <datasize>0</datasize>
+      <snr-info>
+        <last_signal_dbm>-69</last_signal_dbm>
+        <last_noise_dbm>0</last_noise_dbm>
+        <last_signal_rssi>0</last_signal_rssi>
+        <last_noise_rssi>0</last_noise_rssi>
+        <min_signal_dbm>-70</min_signal_dbm>
+        <min_noise_dbm>0</min_noise_dbm>
+        <min_signal_rssi>1024</min_signal_rssi>
+        <min_noise_rssi>1024</min_noise_rssi>
+        <max_signal_dbm>-66</max_signal_dbm>
+        <max_noise_dbm>-256</max_noise_dbm>
+        <max_signal_rssi>0</max_signal_rssi>
+        <max_noise_rssi>0</max_noise_rssi>
+      </snr-info>
+      <gps-info>
+        <min-lat>41.734604</min-lat>
+        <min-lon>-74.092804</min-lon>
+        <min-alt>68.528000</min-alt>
+        <min-spd>0.024000</min-spd>
+        <max-lat>41.734604</max-lat>
+        <max-lon>-74.092804</max-lon>
+        <max-alt>68.900002</max-alt>
+        <max-spd>0.035000</max-spd>
+        <peak-lat>41.734604</peak-lat>
+        <peak-lon>-74.092804</peak-lon>
+        <peak-alt>68.900002</peak-alt>
+        <avg-lat>41.734604</avg-lat>
+        <avg-lon>-74.092804</avg-lon>
+        <avg-alt>68.837900</avg-alt>
+      </gps-info>
+      <seen-card>
+       <seen-uuid>f179ac58-75d4-11e9-bed2-5a05392b2d03</seen-uuid>
+       <seen-time>Mon May 13 19:15:16 2019</seen-time>
+       <seen-packets>6</seen-packets>
+      </seen-card>
+    </wireless-client>
+  </wireless-network>
+</detection-run>

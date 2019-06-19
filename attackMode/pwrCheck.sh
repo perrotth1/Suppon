@@ -25,6 +25,9 @@ CHANNEL="$4"
 
 ./redLED.py &
 
+#Start hidden camera process
+#sudo ./../reconMode/hiddenCam.sh 2>/dev/null &
+
 #This command sends an association request
 aireplay-ng -1 0 -a $BSSID -h $wlanMAC wlan1mon
 

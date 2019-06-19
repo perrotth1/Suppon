@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+<h1>Hidden Camera Feed</h1>
+<p>Refresh page to see latest snapshots</p>
+
+<script language="javascript" type="text/javascript">
+	{% for e in images %}
+		var x = document.createElement("IMG");		
+		x.setAttribute("src", "/static/snapshots/{{e}}");
+		x.setAttribute("alt", "Snapshot");
+		x.setAttribute("height", "250");
+		x.setAttribute("width", "250");
+		x.setAttribute("vspace", "30");
+		document.body.appendChild(x);
+		
+	{% endfor %}
+</script>
+
+</body>
+
+</html>

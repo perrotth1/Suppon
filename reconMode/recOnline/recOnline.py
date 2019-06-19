@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/diagram')
 def topology():
 	db = sqlite3.connect("/home/henry/Suppon/reconMode/logFiles/nmap_output.db")
 	curs = db.cursor()
@@ -66,6 +66,16 @@ def topology():
 	##
 
 	return(render_template('topology.html', mElements=dElements))
+
+@app.route('/camera')
+def camera():
+	imgDir = str(os.popen("ls static/snapshots").read())
+	imgs = imgDir.splitlines()
+
+	for x in range(len(imgs)):
+		print(imgs[x])
+
+	return(render_template('camera.html', images=imgs))
 
 if __name__ == "__main__":
 	app.run(debug=True)

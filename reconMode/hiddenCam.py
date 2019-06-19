@@ -14,7 +14,7 @@ def main():
 		while(True):
 			if(GPIO.input(24) == True):
 				timestamp = datetime.datetime.fromtimestamp(time.time()).strftime("%Y-%m-%d_%H:%M:%S")
-				os.system("raspistill -o /home/henry/Suppon/reconMode/snapshots/"+timestamp+".jpg --nopreview --timeout 300")
+				os.system("raspistill -o /home/henry/Suppon/reconMode/recOnline/static/snapshots/"+timestamp+".jpg --nopreview --timeout 300")
 				print("PHOTO TAKEN")
 				time.sleep(2)
 	except Exception as e:

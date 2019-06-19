@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<script language="javascript" type="text/javascript">
+	{% for e in images %}
+		var image = "snapshots/{{e}}"
+		document.write("<img src=\"{{url_for('static', filename="+image+")}}\" alt=\"test\" height=\"40\" width=\"40\">")
+	{% endfor %}
+</script>
+
+</body>
+
+</html>

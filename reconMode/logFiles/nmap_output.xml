@@ -1,61 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE nmaprun>
 <?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
-<!-- Nmap 7.40 scan initiated Mon May 13 19:02:32 2019 as: nmap -F -A -oX logFiles/nmap_output.xml 192.168.1.1/24 -->
-<nmaprun scanner="nmap" args="nmap -F -A -oX logFiles/nmap_output.xml 192.168.1.1/24" start="1557788552" startstr="Mon May 13 19:02:32 2019" version="7.40" xmloutputversion="1.04">
+<!-- Nmap 7.40 scan initiated Tue Jun 18 17:18:35 2019 as: nmap -F -A -oX logFiles/nmap_output.xml 192.168.1.1/24 -->
+<nmaprun scanner="nmap" args="nmap -F -A -oX logFiles/nmap_output.xml 192.168.1.1/24" start="1560892715" startstr="Tue Jun 18 17:18:35 2019" version="7.40" xmloutputversion="1.04">
 <scaninfo type="syn" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
 <verbose level="0"/>
 <debugging level="0"/>
-<host starttime="1557788554" endtime="1557788602"><status state="up" reason="arp-response" reason_ttl="0"/>
+<host starttime="1560892717" endtime="1560893017"><status state="up" reason="arp-response" reason_ttl="0"/>
 <address addr="192.168.1.1" addrtype="ipv4"/>
-<address addr="AC:3B:77:23:7F:74" addrtype="mac"/>
+<address addr="F8:E4:FB:28:70:0B" addrtype="mac" vendor="Actiontec Electronics"/>
 <hostnames>
-<hostname name="HG6Box" type="PTR"/>
+<hostname name="Wireless_Broadband_Router.home" type="PTR"/>
 </hostnames>
-<ports><extraports state="closed" count="58">
-<extrareasons reason="resets" count="58"/>
+<ports><extraports state="closed" count="95">
+<extrareasons reason="resets" count="95"/>
 </extraports>
-<extraports state="filtered" count="37">
-<extrareasons reason="no-responses" count="37"/>
-</extraports>
-<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" product="dnsmasq" version="2.55" method="probed" conf="10"><cpe>cpe:/a:thekelleys:dnsmasq:2.55</cpe></service><script id="dns-nsid" output="&#xa;  id.server: Answerx_On_nycny-dns-cac-309&#xa;  bind.version: dnsmasq-2.55"><elem key="id.server">Answerx_On_nycny-dns-cac-309</elem>
-<elem key="bind.version">dnsmasq-2.55</elem>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Verizon FIOS Actiontec http config" devicetype="broadband router" method="probed" conf="10"/><script id="http-title" output="Verizon"><elem key="title">Verizon</elem>
 </script></port>
-<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="lighttpd" method="probed" conf="10"><cpe>cpe:/a:lighttpd:lighttpd</cpe></service><script id="http-server-header" output="HTTP Server"><elem>HTTP Server</elem>
-</script><script id="http-title" output="Site doesn&apos;t have a title (text/html).&#xa;Requested resource was /0.1/gui/"><elem key="title"></elem>
-<elem key="redirect_url">/0.1/gui/</elem>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Verizon FIOS Actiontec http config" devicetype="broadband router" tunnel="ssl" method="probed" conf="10"/><script id="http-title" output="Verizon"><elem key="title">Verizon</elem>
+</script><script id="ssl-cert" output="Subject: commonName=ORname_Jungo: OpenRG Products Group/countryName=US&#xa;Not valid before: 2004-06-03T11:11:43&#xa;Not valid after:  2024-05-29T11:11:43"><table key="subject">
+<elem key="commonName">ORname_Jungo: OpenRG Products Group</elem>
+<elem key="countryName">US</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">ORname_Jungo: OpenRG Products Group</elem>
+<elem key="countryName">US</elem>
+</table>
+<table key="pubkey">
+<elem key="bits">1024</elem>
+<elem key="type">rsa</elem>
+<elem key="exponent">userdata: 0x218e370</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:TRUE, pathlen:5</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment, Certificate Sign</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Client Authentication, Code Signing, E-mail Protection, TLS Web Server Authentication</elem>
+</table>
+<table>
+<elem key="name">Netscape Comment</elem>
+<elem key="value">Jungo OpenRG Products Group standard certificate</elem>
+</table>
+<table>
+<elem key="name">Netscape Cert Type</elem>
+<elem key="value">SSL Client, SSL Server, SSL CA</elem>
+</table>
+</table>
+<elem key="sig_algo">md5WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2004-06-03T11:11:43</elem>
+<elem key="notAfter">2024-05-29T11:11:43</elem>
+</table>
+<elem key="md5">ec28c2972c7c6a82ec53e3e285ea6fd2</elem>
+<elem key="sha1">438833c094f6afc864c60e4a6f57e9f4d1281411</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIClTCCAf6gAwIBAgIBADANBgkqhkiG9w0BAQQFADA7MQswCQYDVQQGEwJVUzEs&#xa;MCoGA1UEAxQjT1JuYW1lX0p1bmdvOiBPcGVuUkcgUHJvZHVjdHMgR3JvdXAwHhcN&#xa;MDQwNjAzMTExMTQzWhcNMjQwNTI5MTExMTQzWjA7MQswCQYDVQQGEwJVUzEsMCoG&#xa;A1UEAxQjT1JuYW1lX0p1bmdvOiBPcGVuUkcgUHJvZHVjdHMgR3JvdXAwgZ8wDQYJ&#xa;KoZIhvcNAQEBBQADgY0AMIGJAoGBAM49r7D/ajki5azd5XYxVcSnKoth9lJxvI+m&#xa;vaZjzORt0oLoMWrMbpwFjtLTqqhtWNeY6BAyShWg7yKFsPU0HpX/jHIOAzAkny5J&#xa;+loH8nLN596g3P0ZyD6z7Ckqgbzg9MfJ9XLrExMLBn6oLboksY+q67+5zASWMfLR&#xa;ZVg+Zv1VAgMBAAGjgagwgaUwDwYDVR0TBAgwBgEB/wIBBTALBgNVHQ8EBAMCAvQw&#xa;MQYDVR0lBCowKAYIKwYBBQUHAwIGCCsGAQUFBwMDBggrBgEFBQcDBAYIKwYBBQUH&#xa;AwEwPwYJYIZIAYb4QgENBDIWMEp1bmdvIE9wZW5SRyBQcm9kdWN0cyBHcm91cCBz&#xa;dGFuZGFyZCBjZXJ0aWZpY2F0ZTARBglghkgBhvhCAQEEBAMCAsQwDQYJKoZIhvcN&#xa;AQEEBQADgYEAntbWzY/kUhqtd5lN+ZEY2gYSkt9fWoiLZod9hgMs14I+JGRWuRD1&#xa;re93wvlF1FFvxJOkz2MLc0dkR0z0/W36z7Tw7ypJU/81dynta9yIWLSywdn1/Y6A&#xa;7V6BwyQFRuJlg2/nDP+tUltc6cXbUe8GdTm2IATAzER8OKGRbBMtXqs=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="2019-06-18T21:22:24+00:00; -1s from scanner time."><elem key="delta">-1.0</elem>
+<elem key="date">2019-06-18T21:22:24+00:00</elem>
+</script><script id="ssl-known-key" output="Found in Little Black Box 0.1 - http://code.google.com/p/littleblackbox/ (SHA-1: 4388 33c0 94f6 afc8 64c6 0e4a 6f57 e9f4 d128 1411)"><elem key="section">Little Black Box 0.1 - http://code.google.com/p/littleblackbox/</elem>
+<elem key="sha1">438833c094f6afc864c60e4a6f57e9f4d1281411</elem>
+</script><script id="sslv2" output="&#xa;  SSLv2 supported&#xa;  ciphers: &#xa;    SSL2_RC4_128_WITH_MD5&#xa;    SSL2_DES_192_EDE3_CBC_WITH_MD5&#xa;    SSL2_DES_64_CBC_WITH_MD5&#xa;    SSL2_RC4_128_EXPORT40_WITH_MD5&#xa;    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5&#xa;    SSL2_RC4_64_WITH_MD5&#xa;    SSL2_RC2_128_CBC_WITH_MD5"><elem>SSLv2 supported</elem>
+<table key="ciphers">
+<elem>SSL2_RC4_128_WITH_MD5</elem>
+<elem>SSL2_DES_192_EDE3_CBC_WITH_MD5</elem>
+<elem>SSL2_DES_64_CBC_WITH_MD5</elem>
+<elem>SSL2_RC4_128_EXPORT40_WITH_MD5</elem>
+<elem>SSL2_RC2_128_CBC_EXPORT40_WITH_MD5</elem>
+<elem>SSL2_RC4_64_WITH_MD5</elem>
+<elem>SSL2_RC2_128_CBC_WITH_MD5</elem>
+</table>
 </script></port>
-<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.X - 4.X" extrainfo="workgroup: WORKGROUP" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
-<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.0.24" extrainfo="workgroup: WORKGROUP" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
-<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="upnp" product="Portable SDK for UPnP devices" version="1.6.18" extrainfo="Linux 2.6.28.8; UPnP 1.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/o:linux:linux_kernel:2.6.28.8</cpe></service></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Verizon FIOS Actiontec http config" devicetype="broadband router" method="probed" conf="10"/><script id="http-title" output="Verizon"><elem key="title">Verizon</elem>
+</script></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Verizon FIOS Actiontec http config" devicetype="broadband router" tunnel="ssl" method="probed" conf="10"/><script id="http-title" output="Verizon"><elem key="title">Verizon</elem>
+</script><script id="ssl-cert" output="Subject: commonName=ORname_Jungo: OpenRG Products Group/countryName=US&#xa;Not valid before: 2004-06-03T11:11:43&#xa;Not valid after:  2024-05-29T11:11:43"><table key="subject">
+<elem key="commonName">ORname_Jungo: OpenRG Products Group</elem>
+<elem key="countryName">US</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">ORname_Jungo: OpenRG Products Group</elem>
+<elem key="countryName">US</elem>
+</table>
+<table key="pubkey">
+<elem key="bits">1024</elem>
+<elem key="type">rsa</elem>
+<elem key="exponent">userdata: 0x3744470</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:TRUE, pathlen:5</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment, Certificate Sign</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Client Authentication, Code Signing, E-mail Protection, TLS Web Server Authentication</elem>
+</table>
+<table>
+<elem key="name">Netscape Comment</elem>
+<elem key="value">Jungo OpenRG Products Group standard certificate</elem>
+</table>
+<table>
+<elem key="name">Netscape Cert Type</elem>
+<elem key="value">SSL Client, SSL Server, SSL CA</elem>
+</table>
+</table>
+<elem key="sig_algo">md5WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2004-06-03T11:11:43</elem>
+<elem key="notAfter">2024-05-29T11:11:43</elem>
+</table>
+<elem key="md5">ec28c2972c7c6a82ec53e3e285ea6fd2</elem>
+<elem key="sha1">438833c094f6afc864c60e4a6f57e9f4d1281411</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIClTCCAf6gAwIBAgIBADANBgkqhkiG9w0BAQQFADA7MQswCQYDVQQGEwJVUzEs&#xa;MCoGA1UEAxQjT1JuYW1lX0p1bmdvOiBPcGVuUkcgUHJvZHVjdHMgR3JvdXAwHhcN&#xa;MDQwNjAzMTExMTQzWhcNMjQwNTI5MTExMTQzWjA7MQswCQYDVQQGEwJVUzEsMCoG&#xa;A1UEAxQjT1JuYW1lX0p1bmdvOiBPcGVuUkcgUHJvZHVjdHMgR3JvdXAwgZ8wDQYJ&#xa;KoZIhvcNAQEBBQADgY0AMIGJAoGBAM49r7D/ajki5azd5XYxVcSnKoth9lJxvI+m&#xa;vaZjzORt0oLoMWrMbpwFjtLTqqhtWNeY6BAyShWg7yKFsPU0HpX/jHIOAzAkny5J&#xa;+loH8nLN596g3P0ZyD6z7Ckqgbzg9MfJ9XLrExMLBn6oLboksY+q67+5zASWMfLR&#xa;ZVg+Zv1VAgMBAAGjgagwgaUwDwYDVR0TBAgwBgEB/wIBBTALBgNVHQ8EBAMCAvQw&#xa;MQYDVR0lBCowKAYIKwYBBQUHAwIGCCsGAQUFBwMDBggrBgEFBQcDBAYIKwYBBQUH&#xa;AwEwPwYJYIZIAYb4QgENBDIWMEp1bmdvIE9wZW5SRyBQcm9kdWN0cyBHcm91cCBz&#xa;dGFuZGFyZCBjZXJ0aWZpY2F0ZTARBglghkgBhvhCAQEEBAMCAsQwDQYJKoZIhvcN&#xa;AQEEBQADgYEAntbWzY/kUhqtd5lN+ZEY2gYSkt9fWoiLZod9hgMs14I+JGRWuRD1&#xa;re93wvlF1FFvxJOkz2MLc0dkR0z0/W36z7Tw7ypJU/81dynta9yIWLSywdn1/Y6A&#xa;7V6BwyQFRuJlg2/nDP+tUltc6cXbUe8GdTm2IATAzER8OKGRbBMtXqs=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="2019-06-18T21:22:28+00:00; -2s from scanner time."><elem key="delta">-2.0</elem>
+<elem key="date">2019-06-18T21:22:28+00:00</elem>
+</script><script id="ssl-known-key" output="Found in Little Black Box 0.1 - http://code.google.com/p/littleblackbox/ (SHA-1: 4388 33c0 94f6 afc8 64c6 0e4a 6f57 e9f4 d128 1411)"><elem key="section">Little Black Box 0.1 - http://code.google.com/p/littleblackbox/</elem>
+<elem key="sha1">438833c094f6afc864c60e4a6f57e9f4d1281411</elem>
+</script><script id="sslv2" output="&#xa;  SSLv2 supported&#xa;  ciphers: &#xa;    SSL2_RC4_128_WITH_MD5&#xa;    SSL2_DES_192_EDE3_CBC_WITH_MD5&#xa;    SSL2_DES_64_CBC_WITH_MD5&#xa;    SSL2_RC4_128_EXPORT40_WITH_MD5&#xa;    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5&#xa;    SSL2_RC4_64_WITH_MD5&#xa;    SSL2_RC2_128_CBC_WITH_MD5"><elem>SSLv2 supported</elem>
+<table key="ciphers">
+<elem>SSL2_RC4_128_WITH_MD5</elem>
+<elem>SSL2_DES_192_EDE3_CBC_WITH_MD5</elem>
+<elem>SSL2_DES_64_CBC_WITH_MD5</elem>
+<elem>SSL2_RC4_128_EXPORT40_WITH_MD5</elem>
+<elem>SSL2_RC2_128_CBC_EXPORT40_WITH_MD5</elem>
+<elem>SSL2_RC4_64_WITH_MD5</elem>
+<elem>SSL2_RC2_128_CBC_WITH_MD5</elem>
+</table>
+</script></port>
 </ports>
-<os><portused state="open" proto="tcp" portid="53"/>
-<portused state="closed" proto="tcp" portid="22"/>
-<portused state="closed" proto="udp" portid="33909"/>
-<osmatch name="Huawei HG8245T GPON ONU WAP (Linux 2.6.21)" accuracy="100" line="58303">
-<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6.21</cpe></osclass>
-<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="100"><cpe>cpe:/h:huawei:hg8245t</cpe></osclass>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="7"/>
+<portused state="closed" proto="udp" portid="34754"/>
+<osmatch name="Linux 2.6.9 - 2.6.33" accuracy="100" line="56399">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="6330419" lastboot="Sat Apr  6 10:56:39 2019"/>
+<distance value="1"/>
+<tcpsequence index="200" difficulty="Good luck!" values="21D422A5,2268E87D,22A6B2F3,225B7F0E,227FCB99,2297F80F"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="100HZ" values="25BB4C8A,25BB4C96,25BB4C99,25BB4CBC,25BB4CBD,25BB4CCC"/>
+<hostscript><script id="clock-skew" output="mean: -1s, deviation: 0s, median: -2s"><elem key="mean">-1</elem>
+<elem key="stddev">0</elem>
+<elem key="median">-2</elem>
+</script></hostscript><trace>
+<hop ttl="1" ipaddr="192.168.1.1" rtt="87.99" host="Wireless_Broadband_Router.home"/>
+</trace>
+<times srtt="87988" rttvar="24478" to="185900"/>
+</host>
+<host starttime="1560892717" endtime="1560893017"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.3" addrtype="ipv4"/>
+<address addr="34:13:E8:38:3D:94" addrtype="mac" vendor="Intel Corporate"/>
+<hostnames>
+<hostname name="LAPTOP-338BL93I.home" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="97">
+<extrareasons reason="no-responses" count="97"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" product="Windows 10 Home 17134 microsoft-ds" extrainfo="workgroup: WORKGROUP" hostname="LAPTOP-338BL93I" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="135"/>
+<osmatch name="Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2" accuracy="86" line="70567">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="86"><cpe>cpe:/o:microsoft:windows_server_2008::sp1</cpe><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP2" accuracy="85" line="76420">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="85"><cpe>cpe:/o:microsoft:windows_xp::sp2</cpe></osclass>
 </osmatch>
 </os>
 <distance value="1"/>
-<tcpsequence index="200" difficulty="Good luck!" values="6D315084,6D274540,6D171205,6D92CDB1,6D43B6B6,6DA75557"/>
-<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcpsequence index="263" difficulty="Good luck!" values="E1C3E66D,A0EC25BD,2374F9DF,281FC09C,F2921377,E7550D23"/>
+<ipidsequence class="Incremental" values="6F3,6F4,6F5,6F6,6F7,6F8"/>
 <tcptssequence class="none returned (unsupported)"/>
-<hostscript><script id="nbstat" output="NetBIOS name: SAGEMCOM, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: &lt;unknown&gt; (unknown)"><table key="names">
+<hostscript><script id="nbstat" output="NetBIOS name: LAPTOP-338BL93I, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 34:13:e8:38:3d:94 (Intel Corporate)"><table key="names">
 <table>
-<elem key="name">SAGEMCOM</elem>
+<elem key="name">LAPTOP-338BL93I</elem>
 <elem key="suffix">0</elem>
 <elem key="flags">1024</elem>
 </table>
 <table>
-<elem key="name">SAGEMCOM</elem>
-<elem key="suffix">3</elem>
+<elem key="name">LAPTOP-338BL93I</elem>
+<elem key="suffix">32</elem>
 <elem key="flags">1024</elem>
 </table>
 <table>
-<elem key="name">SAGEMCOM</elem>
-<elem key="suffix">32</elem>
-<elem key="flags">1024</elem>
+<elem key="name">WORKGROUP</elem>
+<elem key="suffix">0</elem>
+<elem key="flags">33792</elem>
 </table>
 <table>
 <elem key="name">WORKGROUP</elem>
@@ -64,135 +207,316 @@
 </table>
 <table>
 <elem key="name">WORKGROUP</elem>
-<elem key="suffix">0</elem>
+<elem key="suffix">29</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">\x01\x02__MSBROWSE__\x02</elem>
+<elem key="suffix">1</elem>
 <elem key="flags">33792</elem>
 </table>
 </table>
+<elem key="user">&lt;unknown&gt;</elem>
+<elem key="server_name">LAPTOP-338BL93I</elem>
 <table key="statistics">
-<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>34 13 e8 38 3d 94 00 00 00 00 00 00 00 00 00 00 00</elem>
 <elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
 <elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
 </table>
-<elem key="server_name">SAGEMCOM</elem>
 <table key="mac">
-<elem key="manuf">unknown</elem>
-<elem key="address">&lt;unknown&gt;</elem>
+<elem key="manuf">Intel Corporate</elem>
+<elem key="address">34:13:e8:38:3d:94</elem>
 </table>
-<elem key="user">&lt;unknown&gt;</elem>
-</script><script id="smb-os-discovery" output="&#xa;  OS: Unix (Samba 3.0.24)&#xa;  NetBIOS computer name: &#xa;  Workgroup: WORKGROUP\x00&#xa;  System time: 2019-05-13T23:03:15+00:00&#xa;"><elem key="os">Unix</elem>
-<elem key="lanmanager">Samba 3.0.24</elem>
+</script><script id="smb-os-discovery" output="&#xa;  OS: Windows 10 Home 17134 (Windows 10 Home 6.3)&#xa;  OS CPE: cpe:/o:microsoft:windows_10::-&#xa;  NetBIOS computer name: LAPTOP-338BL93I\x00&#xa;  Workgroup: WORKGROUP\x00&#xa;  System time: 2019-06-18T17:22:23-04:00&#xa;"><elem key="os">Windows 10 Home 17134</elem>
+<elem key="lanmanager">Windows 10 Home 6.3</elem>
 <elem key="domain">WORKGROUP\x00</elem>
-<elem key="server"></elem>
-<elem key="date">2019-05-13T23:03:15+00:00</elem>
-</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: share (dangerous)&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
-<elem key="authentication_level">share</elem>
+<elem key="server">LAPTOP-338BL93I\x00</elem>
+<elem key="date">2019-06-18T17:22:23-04:00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_10::-</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
 <elem key="challenge_response">supported</elem>
 <elem key="message_signing">disabled</elem>
-</script><script id="smbv2-enabled" output="Server doesn&apos;t support SMBv2 protocol">false</script></hostscript><trace>
-<hop ttl="1" ipaddr="192.168.1.1" rtt="1.84" host="HG6Box"/>
+</script><script id="smbv2-enabled" output="Server supports SMBv2 protocol">true</script></hostscript><trace>
+<hop ttl="1" ipaddr="192.168.1.3" rtt="88.35" host="LAPTOP-338BL93I.home"/>
 </trace>
-<times srtt="1839" rttvar="623" to="100000"/>
+<times srtt="88346" rttvar="48970" to="284226"/>
 </host>
-<host starttime="1557788554" endtime="1557788602"><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="192.168.1.17" addrtype="ipv4"/>
-<address addr="1C:6F:65:9F:ED:B1" addrtype="mac" vendor="Giga-byte Technology"/>
+<host starttime="1560892717" endtime="1560893017"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.5" addrtype="ipv4"/>
+<address addr="00:CD:FE:75:0A:1B" addrtype="mac" vendor="Apple"/>
 <hostnames>
-<hostname name="DESKTOP-T9VJ4T2" type="PTR"/>
+<hostname name="DiagnosssiPhone.home" type="PTR"/>
 </hostnames>
-<ports><extraports state="filtered" count="99">
-<extrareasons reason="no-responses" count="99"/>
+<ports><extraports state="closed" count="100">
+<extrareasons reason="resets" count="100"/>
 </extraports>
-<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="VMware VirtualCenter Web service" tunnel="ssl" method="probed" conf="10"/><script id="http-title" output="Site doesn&apos;t have a title (text; charset=plain)."></script><script id="ssl-cert" output="Subject: commonName=VMware/countryName=US&#xa;Not valid before: 2019-02-24T21:56:26&#xa;Not valid after:  2020-02-24T21:56:26"><table key="subject">
-<elem key="emailAddress">none@vmware.com</elem>
-<elem key="localityName">Palo Alto</elem>
-<elem key="countryName">US</elem>
-<elem key="commonName">VMware</elem>
-<elem key="organizationalUnitName">VMware</elem>
-</table>
-<table key="issuer">
-<elem key="emailAddress">none@vmware.com</elem>
-<elem key="localityName">Palo Alto</elem>
-<elem key="countryName">US</elem>
-<elem key="commonName">VMware</elem>
-<elem key="organizationalUnitName">VMware</elem>
-</table>
-<table key="pubkey">
-<elem key="type">rsa</elem>
-<elem key="bits">2048</elem>
-<elem key="exponent">userdata: 0x288a3c0</elem>
-</table>
-<table key="extensions">
-<table>
-<elem key="name">X509v3 Subject Key Identifier</elem>
-<elem key="value">F2:C4:FF:A3:82:76:D1:90:99:66:29:09:C8:62:E9:06:41:38:45:AB</elem>
-</table>
-<table>
-<elem key="name">X509v3 Authority Key Identifier</elem>
-<elem key="value">keyid:F2:C4:FF:A3:82:76:D1:90:99:66:29:09:C8:62:E9:06:41:38:45:AB&#xa;DirName:/C=US/L=Palo Alto/OU=VMware/CN=VMware/emailAddress=none@vmware.com&#xa;serial:FE:2E:8A:7A:80:0F:B1:42&#xa;</elem>
-</table>
-<table>
-<elem key="name">X509v3 Basic Constraints</elem>
-<elem key="value">CA:TRUE</elem>
-</table>
-</table>
-<elem key="sig_algo">sha1WithRSAEncryption</elem>
-<table key="validity">
-<elem key="notBefore">2019-02-24T21:56:26</elem>
-<elem key="notAfter">2020-02-24T21:56:26</elem>
-</table>
-<elem key="md5">b7e47c484f4e127de35d0dad165eec1c</elem>
-<elem key="sha1">7573ce60e575cf6df67d1fb5b48420978cfcc552</elem>
-<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIEEjCCAvqgAwIBAgIJAP4uinqAD7FCMA0GCSqGSIb3DQEBBQUAMGMxCzAJBgNV&#xa;BAYTAlVTMRIwEAYDVQQHEwlQYWxvIEFsdG8xDzANBgNVBAsTBlZNd2FyZTEPMA0G&#xa;A1UEAxMGVk13YXJlMR4wHAYJKoZIhvcNAQkBFg9ub25lQHZtd2FyZS5jb20wHhcN&#xa;MTkwMjI0MjE1NjI2WhcNMjAwMjI0MjE1NjI2WjBjMQswCQYDVQQGEwJVUzESMBAG&#xa;A1UEBxMJUGFsbyBBbHRvMQ8wDQYDVQQLEwZWTXdhcmUxDzANBgNVBAMTBlZNd2Fy&#xa;ZTEeMBwGCSqGSIb3DQEJARYPbm9uZUB2bXdhcmUuY29tMIIBIjANBgkqhkiG9w0B&#xa;AQEFAAOCAQ8AMIIBCgKCAQEA0G2CWMoiweFu6oq3XQ88sBzbxwlOE52TkUDZ5ovr&#xa;1dPI6UoxI98PcuTHLM/VHtYiIjMmx0AIhddCEk+YUrYE3ACcvnrgX17rk5KsTbpl&#xa;suex9yPYAodnwmqA0ZzZKH4paNABFFQOmhDayPF7gdPRplKcplalDL9H3qkzuEn/&#xa;YNqwJpi6sYhlRCrHVbkIWsTHxaYQEXqrU/ltnj7vWNSQMVdH16GsFOLFT9TYk81I&#xa;cORl0E/lIXqtavJnHUsjKdiphluD6qTntuzVjJtLcXt4IDEGtW3KJj4YEbH6m23g&#xa;6frLXvY+yC9doc5skGzZHMs91UmB4AJpcFM/A7uBuHmWiQIDAQABo4HIMIHFMB0G&#xa;A1UdDgQWBBTyxP+jgnbRkJlmKQnIYukGQThFqzCBlQYDVR0jBIGNMIGKgBTyxP+j&#xa;gnbRkJlmKQnIYukGQThFq6FnpGUwYzELMAkGA1UEBhMCVVMxEjAQBgNVBAcTCVBh&#xa;bG8gQWx0bzEPMA0GA1UECxMGVk13YXJlMQ8wDQYDVQQDEwZWTXdhcmUxHjAcBgkq&#xa;hkiG9w0BCQEWD25vbmVAdm13YXJlLmNvbYIJAP4uinqAD7FCMAwGA1UdEwQFMAMB&#xa;Af8wDQYJKoZIhvcNAQEFBQADggEBAHUr17847UIspJgu9yfZNTejWsvkmV+tvJ3E&#xa;H7GADJuccdmGV0ZCdA+XDHCmH8yP+PtXV899BBNsHGQtrjHdWYEk7VD46I7o4zjw&#xa;ym+M9/4ZTZaB7TmYcR4U5oyGrsuyxwh3SBDQeAb/mLZpEfpAhmL8wAAd2g7rJUC8&#xa;9Q81Uk+gLrzp4DtsQ/ma4wFPAYJTMNJsBO/xCqnZ5iwGCoEZ7wLKtHt0o6fqLcYV&#xa;jsw4JTHh2eaHJ2EHklRNxm9/SO/hwyL9wDeaJv6V7z8Pxc3qSbh7rJWgfRuBgULu&#xa;oagJtBlQvwdqX7iNcZTpgDX/mtiCsbMEDnJ+VSLltzPlWpT9Y1c=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
-</script><script id="ssl-date" output="2019-05-13T23:03:11+00:00; -3s from scanner time."><elem key="date">2019-05-13T23:03:11+00:00</elem>
-<elem key="delta">-3.0</elem>
+</ports>
+<os><portused state="closed" proto="tcp" portid="7"/>
+<portused state="closed" proto="udp" portid="44294"/>
+</os>
+<distance value="1"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.1.5" rtt="92.77" host="DiagnosssiPhone.home"/>
+</trace>
+<times srtt="92767" rttvar="62336" to="342111"/>
+</host>
+<host starttime="1560892717" endtime="1560893017"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.6" addrtype="ipv4"/>
+<address addr="2C:54:91:40:E7:A9" addrtype="mac"/>
+<hostnames>
+<hostname name="XboxOne.home" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="100">
+<extrareasons reason="no-responses" count="100"/>
+</extraports>
+</ports>
+<os></os>
+<distance value="1"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.1.6" rtt="74.33" host="XboxOne.home"/>
+</trace>
+<times srtt="74333" rttvar="57363" to="303785"/>
+</host>
+<host starttime="1560892717" endtime="1560893017"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.8" addrtype="ipv4"/>
+<address addr="F4:81:39:03:F7:98" addrtype="mac" vendor="Canon"/>
+<hostnames>
+<hostname name="new-host.home" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="97">
+<extrareasons reason="resets" count="97"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Canon Pixma printer http config" extrainfo="KS_HTTP 1.0" devicetype="printer" method="probed" conf="10"/><script id="http-title" output="Site doesn&apos;t have a title."></script></port>
+<port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="printer" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ipp" product="CUPS" version="1.4" method="probed" conf="10"><cpe>cpe:/a:apple:cups:1.4</cpe></service><script id="http-server-header" output="CUPS/1.4"><elem>CUPS/1.4</elem>
+</script><script id="http-title" output="400 Bad Request"><elem key="title">400 Bad Request</elem>
 </script></port>
 </ports>
-<os><portused state="open" proto="tcp" portid="443"/>
-<osmatch name="AVtech Room Alert 26W environmental monitor" accuracy="87" line="8628">
-<osclass type="specialized" vendor="AVtech" osfamily="embedded" accuracy="87"/>
-</osmatch>
-<osmatch name="Microsoft Windows XP SP2" accuracy="87" line="76420">
-<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="87"><cpe>cpe:/o:microsoft:windows_xp::sp2</cpe></osclass>
-</osmatch>
-<osmatch name="FreeBSD 6.2-RELEASE" accuracy="86" line="25801">
-<osclass type="general purpose" vendor="FreeBSD" osfamily="FreeBSD" osgen="6.X" accuracy="86"><cpe>cpe:/o:freebsd:freebsd:6.2</cpe></osclass>
-</osmatch>
-<osmatch name="FreeBSD 10.3-STABLE" accuracy="85" line="24811">
-<osclass type="general purpose" vendor="FreeBSD" osfamily="FreeBSD" osgen="10.X" accuracy="85"><cpe>cpe:/o:freebsd:freebsd:10.3</cpe></osclass>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="7"/>
+<portused state="closed" proto="udp" portid="34334"/>
+<osmatch name="Canon PIXMA MX340, MP495, MP620, MG3100, MG6200, MX860, MX870, or MX890 printer" accuracy="100" line="12434">
+<osclass type="printer" vendor="Canon" osfamily="embedded" accuracy="100"><cpe>cpe:/h:canon:pixma_mx340</cpe><cpe>cpe:/h:canon:pixma_mp495</cpe><cpe>cpe:/h:canon:pixma_mp620</cpe><cpe>cpe:/h:canon:pixma_mg3100</cpe><cpe>cpe:/h:canon:pixma_mg6200</cpe><cpe>cpe:/h:canon:pixma_mx860</cpe><cpe>cpe:/h:canon:pixma_mx870</cpe><cpe>cpe:/h:canon:pixma_mx890</cpe></osclass>
 </osmatch>
 </os>
 <distance value="1"/>
-<tcpsequence index="261" difficulty="Good luck!" values="6274979C,E0DD95B5,3E39B2D0,F2014997,68C1F4A,A21D142A"/>
-<ipidsequence class="Incremental" values="2F9B,2F9C,2F9D,2F9E,2F9F,2FA0"/>
+<tcpsequence index="165" difficulty="Good luck!" values="BDD4CE00,ABF6E800,9A190200,883B4E00,765D9A00,647FE600"/>
+<ipidsequence class="Randomized" values="C77C,A8FA,491E,B25A,8B54,1023"/>
 <tcptssequence class="none returned (unsupported)"/>
-<hostscript><script id="clock-skew" output="mean: -2s, deviation: 0s, median: -2s"><elem key="median">-2</elem>
-<elem key="mean">-2</elem>
-<elem key="stddev">0</elem>
-</script></hostscript><trace>
-<hop ttl="1" ipaddr="192.168.1.17" rtt="-&#45;" host="DESKTOP-T9VJ4T2"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.1.8" rtt="200.48" host="new-host.home"/>
 </trace>
-<times srtt="-28420" rttvar="44943" to="151352"/>
+<times srtt="200480" rttvar="77188" to="509232"/>
 </host>
-<host starttime="1557788603" endtime="1557788614"><status state="up" reason="localhost-response" reason_ttl="0"/>
-<address addr="192.168.1.227" addrtype="ipv4"/>
+<host starttime="1560892717" endtime="1560893017"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.9" addrtype="ipv4"/>
+<address addr="70:48:0F:BE:F0:D9" addrtype="mac" vendor="Apple"/>
 <hostnames>
-<hostname name="henryyypi" type="PTR"/>
+<hostname name="Sams-iPad.home" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="100">
+<extrareasons reason="resets" count="100"/>
+</extraports>
+</ports>
+<os><portused state="closed" proto="tcp" portid="7"/>
+<portused state="closed" proto="udp" portid="35534"/>
+</os>
+<distance value="1"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.1.9" rtt="63.11" host="Sams-iPad.home"/>
+</trace>
+<times srtt="63107" rttvar="35100" to="203507"/>
+</host>
+<host starttime="1560892717" endtime="1560893017"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.10" addrtype="ipv4"/>
+<address addr="04:1E:64:EE:75:A4" addrtype="mac" vendor="Apple"/>
+<hostnames>
+<hostname name="LynnHayashi-2.home" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="99">
+<extrareasons reason="resets" count="99"/>
+</extraports>
+<port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ipp" product="CUPS" version="1.7" method="probed" conf="10"><cpe>cpe:/a:apple:cups:1.7</cpe></service><script id="http-server-header" output="CUPS/1.7 IPP/2.1"><elem>CUPS/1.7 IPP/2.1</elem>
+</script><script id="http-title" output="Bad Request - CUPS v1.7.2"><elem key="title">Bad Request - CUPS v1.7.2</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="631"/>
+<portused state="closed" proto="tcp" portid="7"/>
+<portused state="closed" proto="udp" portid="33508"/>
+<osmatch name="Apple Mac OS X 10.7.0 (Lion) - 10.11 (El Capitan) or iOS 4.1 - 9.3.3 (Darwin 10.0.0 - 15.6.0)" accuracy="100" line="6233">
+<osclass type="general purpose" vendor="Apple" osfamily="Mac OS X" osgen="10.7.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.7</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.8.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.8</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.9.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.9</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.10.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.10</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.11.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.11</cpe></osclass>
+<osclass type="media device" vendor="Apple" osfamily="iOS" osgen="4.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:4</cpe><cpe>cpe:/a:apple:apple_tv:4</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="4.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:4</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="5.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:5</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="6.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:6</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="7.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:7</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="8.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:8</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="9.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2207386" lastboot="Fri May 24 04:13:52 2019"/>
+<distance value="1"/>
+<tcpsequence index="260" difficulty="Good luck!" values="EC5FAE8B,9ABD9B39,6D171CF,682CF4DC,DA30514F,FE4A9F41"/>
+<ipidsequence class="Randomized" values="FEF1,5F26,82F6,7ACC,2286,B666"/>
+<tcptssequence class="other" values="562CBAD2,562CBAD2,562CBBCC,562CBBCF,562CBC53,562CBCCB"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.1.10" rtt="92.86" host="LynnHayashi-2.home"/>
+</trace>
+<times srtt="92862" rttvar="63272" to="345950"/>
+</host>
+<host starttime="1560892717" endtime="1560893017"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.11" addrtype="ipv4"/>
+<address addr="04:1E:64:F0:FC:E5" addrtype="mac" vendor="Apple"/>
+<hostnames>
+<hostname name="Lesleys-iMac.home" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="99">
+<extrareasons reason="resets" count="99"/>
+</extraports>
+<port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ipp" product="CUPS" version="1.6" method="probed" conf="10"><cpe>cpe:/a:apple:cups:1.6</cpe></service><script id="http-title" output="Bad Request - CUPS v1.6.2"><elem key="title">Bad Request - CUPS v1.6.2</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="631"/>
+<portused state="closed" proto="tcp" portid="7"/>
+<portused state="closed" proto="udp" portid="38984"/>
+<osmatch name="Apple Mac OS X 10.7.0 (Lion) - 10.11 (El Capitan) or iOS 4.1 - 9.3.3 (Darwin 10.0.0 - 15.6.0)" accuracy="100" line="6233">
+<osclass type="general purpose" vendor="Apple" osfamily="Mac OS X" osgen="10.7.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.7</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.8.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.8</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.9.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.9</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.10.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.10</cpe></osclass>
+<osclass type="general purpose" vendor="Apple" osfamily="OS X" osgen="10.11.X" accuracy="100"><cpe>cpe:/o:apple:mac_os_x:10.11</cpe></osclass>
+<osclass type="media device" vendor="Apple" osfamily="iOS" osgen="4.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:4</cpe><cpe>cpe:/a:apple:apple_tv:4</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="4.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:4</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="5.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:5</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="6.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:6</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="7.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:7</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="8.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:8</cpe></osclass>
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="9.X" accuracy="100"><cpe>cpe:/o:apple:iphone_os:9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="91336" lastboot="Mon Jun 17 16:01:22 2019"/>
+<distance value="1"/>
+<tcpsequence index="260" difficulty="Good luck!" values="79B052CA,234789F1,35A3C5C1,28216F6B,F2AFBD1,5B2ECF9A"/>
+<ipidsequence class="Randomized" values="F8F9,20F0,97A4,18D1,23A2,E884"/>
+<tcptssequence class="other" values="16F8679,16F8679,16F8679,16F8679,16F86BF,16F86FE"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.1.11" rtt="115.40" host="Lesleys-iMac.home"/>
+</trace>
+<times srtt="115401" rttvar="76863" to="422853"/>
+</host>
+<host starttime="1560892717" endtime="1560893018"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.100" addrtype="ipv4"/>
+<address addr="00:25:2E:E4:FF:CA" addrtype="mac" vendor="Cisco Spvtg"/>
+<hostnames>
+<hostname name="IP-STB1.home" type="PTR"/>
 </hostnames>
 <ports><extraports state="closed" count="98">
 <extrareasons reason="resets" count="98"/>
 </extraports>
-<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" extrainfo="protocol 2.0" servicefp="SF-Port22-TCP:V=7.40%I=7%D=5/13%Time=5CD9F7C2%P=arm-unknown-linux-gnueabihf%r(NULL,29,&quot;SSH-2\.0-OpenSSH_7\.4p1\x20Raspbian-10\+deb9u4\n&quot;);" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  NULL: &#xa;    SSH-2.0-OpenSSH_7.4p1 Raspbian-10+deb9u4"><elem key="NULL">&#xa;    SSH-2.0-OpenSSH_7.4p1 Raspbian-10+deb9u4</elem>
+<port protocol="tcp" portid="8000"><state state="open" reason="syn-ack" reason_ttl="3"/><service name="http-alt" servicefp="SF-Port8000-TCP:V=7.40%I=7%D=6/18%Time=5D095590%P=arm-unknown-linux-gnueabihf%r(RPCCheck,B,&quot;\x01\0\x08\n\0\0\x04\x08\0\0\x07&quot;)%r(Kerberos,B,&quot;\x01\0\x08\n\0\x81\x04\x08\0k\x07&quot;)%r(SMBProgNeg,21,&quot;\x01\0\x08\n\0\0\x04\x08\0\0\x07\x01\0\x08\n\0\0\x04\x08\0\0\x07\x01\0\x08\n\0\0\x04\x08\0\0\x07&quot;)%r(TerminalServer,B,&quot;\x01\0\x08\n\0\0\x04\x08\0\0\x07&quot;)%r(NotesRPC,B,&quot;\x01\0\x08\n\0\0\x04\x08\0\0\x07&quot;)%r(WMSRequest,B,&quot;\x01\0\x08\n\0\0\x04\x08\0\0\x07&quot;);" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9999"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="abyss" servicefp="SF-Port9999-TCP:V=7.40%I=7%D=6/18%Time=5D095568%P=arm-unknown-linux-gnueabihf%r(GetRequest,9A,&quot;HTTP/1\.1\x20404\x20Page\x20not\x20found\r\nContent-type:\x20text/html\r\nContent-length:\x2031\r\nServer:\x20Cisco-MWEB/1\.8\.225\r\nConnection:\x20close\r\n\r\n&lt;h1&gt;Error&lt;/h1&gt;Page\x20not\x20found!\r\n&quot;)%r(HTTPOptions,9A,&quot;HTTP/1\.1\x20404\x20Page\x20not\x20found\r\nContent-type:\x20text/html\r\nContent-length:\x2031\r\nServer:\x20Cisco-MWEB/1\.8\.225\r\nConnection:\x20close\r\n\r\n&lt;h1&gt;Error&lt;/h1&gt;Page\x20not\x20found!\r\n&quot;)%r(FourOhFourRequest,9A,&quot;HTTP/1\.1\x20404\x20Page\x20not\x20found\r\nContent-type:\x20text/html\r\nContent-length:\x2031\r\nServer:\x20Cisco-MWEB/1\.8\.225\r\nConnection:\x20close\r\n\r\n&lt;h1&gt;Error&lt;/h1&gt;Page\x20not\x20found!\r\n&quot;)%r(RTSPRequest,9A,&quot;HTTP/1\.1\x20404\x20Page\x20not\x20found\r\nContent-type:\x20text/html\r\nContent-length:\x2031\r\nServer:\x20Cisco-MWEB/1\.8\.225\r\nConnection:\x20close\r\n\r\n&lt;h1&gt;Error&lt;/h1&gt;Page\x20not\x20found!\r\n&quot;)%r(SIPOptions,9A,&quot;HTTP/1\.1\x20404\x20Page\x20not\x20found\r\nContent-type:\x20text/html\r\nContent-length:\x2031\r\nServer:\x20Cisco-MWEB/1\.8\.225\r\nConnection:\x20close\r\n\r\n&lt;h1&gt;Error&lt;/h1&gt;Page\x20not\x20found!\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  FourOhFourRequest, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: &#xa;    HTTP/1.1 404 Page not found&#xa;    Content-type: text/html&#xa;    Content-length: 31&#xa;    Server: Cisco-MWEB/1.8.225&#xa;    Connection: close&#xa;    &lt;h1&gt;Error&lt;/h1&gt;Page not found!"><elem key="FourOhFourRequest, GetRequest, HTTPOptions, RTSPRequest, SIPOptions">&#xa;    HTTP/1.1 404 Page not found&#xa;    Content-type: text/html&#xa;    Content-length: 31&#xa;    Server: Cisco-MWEB/1.8.225&#xa;    Connection: close&#xa;    &lt;h1&gt;Error&lt;/h1&gt;Page not found!</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="8000"/>
+<portused state="closed" proto="tcp" portid="7"/>
+<portused state="closed" proto="udp" portid="39319"/>
+<osmatch name="Roku 2 XS media player (Linux 2.6.32)" accuracy="94" line="56587">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.15 - 2.6.27" accuracy="94" line="45317">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linksys WRV54G WAP" accuracy="91" line="41641">
+<osclass type="WAP" vendor="Linksys" osfamily="embedded" accuracy="91"><cpe>cpe:/h:linksys:wrv54g</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt (Linux 2.4.32)" accuracy="91" line="43895">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.4.32</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt White Russian 0.9 (Linux 2.4.30)" accuracy="91" line="44020">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.4.30</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.35" accuracy="91" line="54152">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6.35</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.36" accuracy="91" line="53457">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6)" accuracy="91" line="44656">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="91"><cpe>cpe:/h:asus:rt-n10</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="91"><cpe>cpe:/h:axis:211_network_camera</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.18" accuracy="91" line="46700">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6.18</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 211A Network Camera (Linux 2.6.20)" accuracy="91" line="58829">
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6.20</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="91"><cpe>cpe:/h:axis:211a_network_camera</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2462013" lastboot="Tue May 21 05:30:05 2019"/>
+<distance value="1"/>
+<tcpsequence index="258" difficulty="Good luck!" values="4AE8F2DA,25D0A6B8,B071B828,806937EF,2A6AC056,E559219A"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="92BDFF41,92BDFFD4,92BE006C,92BE006D,92BE00CC,92BE0142"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.1.100" rtt="33.91" host="IP-STB1.home"/>
+</trace>
+<times srtt="33909" rttvar="16189" to="100000"/>
+</host>
+<host starttime="1560892717" endtime="1560893017"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.101" addrtype="ipv4"/>
+<address addr="00:21:BE:70:5F:9C" addrtype="mac" vendor="Cisco Spvtg"/>
+<hostnames>
+<hostname name="IP-STB2.home" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="100">
+<extrareasons reason="resets" count="100"/>
+</extraports>
+</ports>
+<os><portused state="closed" proto="tcp" portid="7"/>
+<portused state="closed" proto="udp" portid="43478"/>
+<osmatch name="IBM OS/2 Warp 4" accuracy="100" line="36888">
+<osclass type="general purpose" vendor="IBM" osfamily="OS/2" osgen="4.X" accuracy="100"><cpe>cpe:/o:ibm:os2:4</cpe></osclass>
+</osmatch>
+<osmatch name="RISCOS Ltd RISC OS 4.39" accuracy="100" line="89384">
+<osclass type="general purpose" vendor="RISCOS Ltd" osfamily="RISC OS" osgen="4.X" accuracy="100"><cpe>cpe:/o:riscosltd:risc_os:4.39</cpe></osclass>
+</osmatch>
+<osmatch name="SCO UNIX 3.2" accuracy="100" line="90691">
+<osclass type="general purpose" vendor="SCO" osfamily="SCO UNIX" osgen="3.X" accuracy="100"><cpe>cpe:/o:sco:sco_unix:3.2</cpe></osclass>
+</osmatch>
+</os>
+<distance value="1"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.1.101" rtt="74.84" host="IP-STB2.home"/>
+</trace>
+<times srtt="74836" rttvar="46636" to="261380"/>
+</host>
+<host starttime="1560893018" endtime="1560893029"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.1.4" addrtype="ipv4"/>
+<hostnames>
+<hostname name="henryyypi.home" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="98">
+<extrareasons reason="resets" count="98"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" extrainfo="protocol 2.0" servicefp="SF-Port22-TCP:V=7.40%I=7%D=6/18%Time=5D095662%P=arm-unknown-linux-gnueabihf%r(NULL,29,&quot;SSH-2\.0-OpenSSH_7\.4p1\x20Raspbian-10\+deb9u4\n&quot;);" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  NULL: &#xa;    SSH-2.0-OpenSSH_7.4p1 Raspbian-10+deb9u4"><elem key="NULL">&#xa;    SSH-2.0-OpenSSH_7.4p1 Raspbian-10+deb9u4</elem>
 </script><script id="ssh-hostkey" output="&#xa;  2048 10:d8:b2:9d:6d:70:07:f5:16:c5:18:31:51:3a:f5:18 (RSA)&#xa;  256 7f:14:6d:94:5f:89:43:3f:9b:f1:63:64:52:d3:8e:63 (ECDSA)"><table>
 <elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDp2s9YlMLZJHwwziuT+pLWxHMRzB+J+6hGd0UhpUiByYv0s9xagl/MSG42W3DKCsgoCnbc+FU8XLhx2+HjlL5MyppUFp7ELEVoiRPMxggojoAbpWEiZB4vxoFQL93RXhs72t8JldYSAx+H3O6UiBgu7Nj+J+onmmrCcUtHxn2dAdevNQlxHLbhYb456Wq8iLKj2e+MjkKYpSCUZRPa5ec/Kdc7ksROBO94AdmLSKnVx6TaMvs5VRZKA0vS4cPmIjOVzmoPkpnwd+gwFnF8a4rP7zgbLGuYraNlLGVcKtyqT63HCvmSdj1FABmfiHvRTBaKMTRE7QB91K3n2lajUX6j</elem>
 <elem key="fingerprint">10d8b29d6d7007f516c51831513af518</elem>
-<elem key="bits">2048.0</elem>
 <elem key="type">ssh-rsa</elem>
+<elem key="bits">2048.0</elem>
 </table>
 <table>
 <elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD+BQMaIgdkS7GU/k6kdwLzA+niJ1wpS07FLRaPsxg+t9wSLZGH1yZTj/3VWJDTGxgcZLpRT6FG8MxDcaAB1WEQ=</elem>
 <elem key="fingerprint">7f146d945f89433f9bf1636452d38e63</elem>
-<elem key="bits">256</elem>
 <elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
 </table>
 </script></port>
 <port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="lighttpd" version="1.4.45" method="probed" conf="10"><cpe>cpe:/a:lighttpd:lighttpd:1.4.45</cpe></service><script id="http-server-header" output="lighttpd/1.4.45"><elem>lighttpd/1.4.45</elem>
@@ -201,18 +525,18 @@
 </ports>
 <os><portused state="open" proto="tcp" portid="22"/>
 <portused state="closed" proto="tcp" portid="7"/>
-<portused state="closed" proto="udp" portid="35759"/>
+<portused state="closed" proto="udp" portid="34888"/>
 <osmatch name="Linux 3.7 - 3.10" accuracy="100" line="62640">
 <osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
 </osmatch>
 </os>
-<uptime seconds="460565" lastboot="Wed May  8 11:07:29 2019"/>
+<uptime seconds="2778906" lastboot="Fri May 17 13:28:43 2019"/>
 <distance value="0"/>
-<tcpsequence index="262" difficulty="Good luck!" values="5F553B8A,A53184A4,BCF4E4E4,B63A4CA4,CFB6B008,435A2047"/>
+<tcpsequence index="254" difficulty="Good luck!" values="65623801,C87F9F84,69D8D90E,A65F3FA7,1C9A3034,CE0218C7"/>
 <ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
-<tcptssequence class="1000HZ" values="1B739C91,1B739CF5,1B739D59,1B739DBD,1B739E21,1B739E85"/>
-<times srtt="29" rttvar="3" to="100000"/>
+<tcptssequence class="1000HZ" values="A5A2B585,A5A2B5E9,A5A2B64D,A5A2B6B1,A5A2B715,A5A2B779"/>
+<times srtt="29" rttvar="0" to="100000"/>
 </host>
-<runstats><finished time="1557788614" timestr="Mon May 13 19:03:34 2019" elapsed="63.52" summary="Nmap done at Mon May 13 19:03:34 2019; 256 IP addresses (3 hosts up) scanned in 63.52 seconds" exit="success"/><hosts up="3" down="253" total="256"/>
+<runstats><finished time="1560893030" timestr="Tue Jun 18 17:23:50 2019" elapsed="316.44" summary="Nmap done at Tue Jun 18 17:23:50 2019; 256 IP addresses (11 hosts up) scanned in 316.44 seconds" exit="success"/><hosts up="11" down="245" total="256"/>
 </runstats>
 </nmaprun>

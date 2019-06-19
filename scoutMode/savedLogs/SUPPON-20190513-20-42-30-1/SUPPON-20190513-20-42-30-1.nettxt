@@ -1,0 +1,2324 @@
+Kismet (http://www.kismetwireless.net)
+Mon May 13 20:42:30 2019 - Kismet 2016.07.R1
+-----------------
+
+Network 1: BSSID 00:25:BC:88:CE:D1
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:39 2019
+ Type       : infrastructure
+ BSSID      : 00:25:BC:88:CE:D1
+   SSID 1
+    Type       : Beacon
+    SSID       : "TGN_SH152" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:32 2019
+    Max Rate   : 130.0
+    Beacon     : 10
+    Packets    : 1
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+TKIP
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA+WPA2
+ Channel    : 1
+ Frequency  : 2412 - 42 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 41
+ Crypt      : 41
+ Fragments  : 0
+ Retries    : 0
+ Total      : 42
+ Datasize   : 6522
+ Last BSSTS : Jan 24 00:01:19
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 42 packets
+              Mon May 13 20:42:39 2019
+ Client 1: MAC 00:08:E3:FF:FF:20
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 00:08:E3:FF:FF:20
+  Channel    : 0
+  Frequency  : 2412 - 6 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 6
+  Crypt      : 6
+  Fragments  : 0
+  Retries    : 0
+  Total      : 6
+  Datasize   : 588
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 6 packets
+               Mon May 13 20:42:39 2019
+ Client 2: MAC 00:1B:78:F2:67:0A
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : 00:1B:78:F2:67:0A
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 98
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:32 2019
+ Client 3: MAC 00:21:B7:AF:C4:24
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 00:21:B7:AF:C4:24
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 971
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 4: MAC 00:24:36:A0:37:8C
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : 00:24:36:A0:37:8C
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 80
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:32 2019
+ Client 5: MAC 00:25:BC:88:CE:D1
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : 00:25:BC:88:CE:D1
+  Channel    : 1
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:32 2019
+ Client 6: MAC 00:56:2B:89:3D:73
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : 00:56:2B:89:3D:73
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 98
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:32 2019
+ Client 7: MAC 00:56:2B:89:41:2B
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 00:56:2B:89:41:2B
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 98
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 8: MAC 00:80:87:62:D4:45
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : 00:80:87:62:D4:45
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 98
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:32 2019
+ Client 9: MAC 0C:4D:E9:AA:74:B8
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 0C:4D:E9:AA:74:B8
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 10: MAC 0C:4D:E9:C6:5A:77
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 0C:4D:E9:C6:5A:77
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 298
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 11: MAC 10:60:4B:86:ED:22
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : 10:60:4B:86:ED:22
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 98
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:32 2019
+ Client 12: MAC 10:DD:B1:BC:F0:02
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 10:DD:B1:BC:F0:02
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 13: MAC 10:DD:B1:CC:F2:92
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 10:DD:B1:CC:F2:92
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 14: MAC 10:DD:B1:CC:F4:07
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 10:DD:B1:CC:F4:07
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 15: MAC 10:DD:B1:CC:F8:B6
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 10:DD:B1:CC:F8:B6
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 16: MAC 18:03:73:CD:36:41
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : 18:03:73:CD:36:41
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 98
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:32 2019
+ Client 17: MAC 38:C9:86:20:95:76
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 38:C9:86:20:95:76
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 18: MAC 3C:07:54:4F:27:3B
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 3C:07:54:4F:27:3B
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 19: MAC 68:5B:35:CB:CA:85
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 68:5B:35:CB:CA:85
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 20: MAC 78:7B:8A:AF:22:A4
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 78:7B:8A:AF:22:A4
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 21: MAC 78:7B:8A:DA:53:45
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 78:7B:8A:DA:53:45
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 22: MAC 80:C1:6E:F5:05:F5
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : 80:C1:6E:F5:05:F5
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 514
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+               Mon May 13 20:42:32 2019
+ Client 23: MAC 88:51:FB:4C:C0:A1
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : 88:51:FB:4C:C0:A1
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 332
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+               Mon May 13 20:42:39 2019
+ Client 24: MAC A8:20:66:4B:A5:6B
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : A8:20:66:4B:A5:6B
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 130
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+ Client 25: MAC B8:27:EB:41:E5:94
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : B8:27:EB:41:E5:94
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 296
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+               Mon May 13 20:42:39 2019
+ Client 26: MAC E4:11:5B:40:0F:28
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : E4:11:5B:40:0F:28
+  Channel    : 0
+  Frequency  : 2412 - 8 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 8
+  Crypt      : 8
+  Fragments  : 0
+  Retries    : 0
+  Total      : 8
+  Datasize   : 1212
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 8 packets
+               Mon May 13 20:42:39 2019
+ Client 27: MAC E8:39:35:37:9B:4D
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : E8:39:35:37:9B:4D
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 1
+  Crypt      : 1
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 213
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+Network 2: BSSID 3C:A9:F4:81:47:24
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:32 2019
+ Type       : probe
+ BSSID      : 3C:A9:F4:81:47:24
+ Channel    : 0
+ Frequency  : 2432 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Last BSSTS : May 13 20:42:32
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+              Mon May 13 20:42:32 2019
+ Client 1: MAC 3C:A9:F4:81:47:24
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : To Distribution
+  MAC        : 3C:A9:F4:81:47:24
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:32 2019
+    Max Rate   : 216.7
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2432 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:32 2019
+Network 3: BSSID 40:49:0F:52:55:8E
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : 40:49:0F:52:55:8E
+   SSID 1
+    Type       : Probe Response
+    SSID       : "DIRECT-8E-HP M606 LaserJet" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 72.2
+    Beacon     : -1
+    Packets    : 11
+    WPS        : Locked
+    WPS Manuf  : HP
+    Dev Name   : DIRECT-8E-HP M606 LaserJet
+    Model Name : HP LaserJet M606
+    Model Num  : E6B73A
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 6
+ Frequency  : 2427 - 1 packets, 9.09%
+ Frequency  : 2432 - 5 packets, 45.45%
+ Frequency  : 2437 - 5 packets, 45.45%
+ Max Seen   : 6000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ LLC        : 11
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 11
+ Datasize   : 0
+ Last BSSTS : May  6 00:38:52
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 11 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC 40:49:0F:52:55:8E
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : Unknown
+  MAC        : 40:49:0F:52:55:8E
+  Channel    : 6
+  Frequency  : 2427 - 1 packets, 9.09%
+  Frequency  : 2432 - 5 packets, 45.45%
+  Frequency  : 2437 - 5 packets, 45.45%
+  Max Seen   : 6000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 11
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 11
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 11 packets
+               Mon May 13 20:42:41 2019
+Network 4: BSSID A0:64:8F:6F:13:23
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:32 2019
+ Type       : infrastructure
+ BSSID      : A0:64:8F:6F:13:23
+   SSID 1
+    Type       : Beacon
+    SSID       : "MySpectrumWiFi25-2G" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:32 2019
+    Max Rate   : 600.0
+    Beacon     : 10
+    Packets    : 1
+    WPS        : Configured
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 5
+ Frequency  : 2432 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Last BSSTS : May 12 21:06:04
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+              Mon May 13 20:42:32 2019
+ Client 1: MAC A0:64:8F:6F:13:23
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : A0:64:8F:6F:13:23
+  Channel    : 5
+  Frequency  : 2432 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:32 2019
+Network 5: BSSID B8:27:EB:CF:5D:1E
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:34 2019
+ Last       : Mon May 13 20:42:40 2019
+ Type       : probe
+ BSSID      : B8:27:EB:CF:5D:1E
+ Channel    : 0
+ Frequency  : 2417 - 7 packets, 33.33%
+ Frequency  : 2437 - 4 packets, 19.05%
+ Frequency  : 2452 - 2 packets, 9.52%
+ Frequency  : 2472 - 8 packets, 38.10%
+ Max Seen   : 1000
+ LLC        : 21
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 21
+ Datasize   : 0
+ Last BSSTS : May 13 20:42:40
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 21 packets
+              Mon May 13 20:42:40 2019
+ Client 1: MAC B8:27:EB:CF:5D:1E
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:34 2019
+  Last       : Mon May 13 20:42:40 2019
+  Type       : To Distribution
+  MAC        : B8:27:EB:CF:5D:1E
+   SSID 1
+    Type       : Probe Request
+    SSID       : <cloaked>
+    First      : Mon May 13 20:42:40 2019
+    Last       : Mon May 13 20:42:40 2019
+    Max Rate   : 150.0
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+   SSID 2
+    Type       : Probe Request
+    SSID       : MySpectrumWiFi72-2G
+    First      : Mon May 13 20:42:40 2019
+    Last       : Mon May 13 20:42:40 2019
+    Max Rate   : 150.0
+    Beacon     : -1
+    Packets    : 1
+    Encryption : None
+  Channel    : 0
+  Frequency  : 2417 - 7 packets, 33.33%
+  Frequency  : 2437 - 4 packets, 19.05%
+  Frequency  : 2452 - 2 packets, 9.52%
+  Frequency  : 2472 - 8 packets, 38.10%
+  Max Seen   : 1000
+  LLC        : 21
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 21
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 21 packets
+               Mon May 13 20:42:40 2019
+Network 6: BSSID F0:5C:19:36:5D:C0
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:5D:C0
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks WPA" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 7
+    WPS        : No
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 6
+ Frequency  : 2432 - 1 packets, 14.29%
+ Frequency  : 2437 - 4 packets, 57.14%
+ Frequency  : 2442 - 2 packets, 28.57%
+ Max Seen   : 1000
+ LLC        : 7
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 7
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:49:32
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 7 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:5D:C0
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:5D:C0
+  Channel    : 6
+  Frequency  : 2432 - 1 packets, 14.29%
+  Frequency  : 2437 - 4 packets, 57.14%
+  Frequency  : 2442 - 2 packets, 28.57%
+  Max Seen   : 1000
+  LLC        : 7
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 7
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 7 packets
+               Mon May 13 20:42:41 2019
+Network 7: BSSID F0:5C:19:36:5D:C1
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:5D:C1
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 9
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 6
+ Frequency  : 2432 - 1 packets, 11.11%
+ Frequency  : 2437 - 5 packets, 55.56%
+ Frequency  : 2442 - 3 packets, 33.33%
+ Max Seen   : 1000
+ LLC        : 9
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 9
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:49:32
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 9 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:5D:C1
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:5D:C1
+  Channel    : 6
+  Frequency  : 2432 - 1 packets, 11.11%
+  Frequency  : 2437 - 5 packets, 55.56%
+  Frequency  : 2442 - 3 packets, 33.33%
+  Max Seen   : 1000
+  LLC        : 9
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 9
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 9 packets
+               Mon May 13 20:42:41 2019
+Network 8: BSSID F0:5C:19:36:5D:C3
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:5D:C3
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks Guest" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 9
+    WPS        : No
+    Encryption : None
+ Channel    : 6
+ Frequency  : 2432 - 2 packets, 22.22%
+ Frequency  : 2437 - 5 packets, 55.56%
+ Frequency  : 2442 - 2 packets, 22.22%
+ Max Seen   : 1000
+ LLC        : 9
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 9
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:49:32
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 9 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:5D:C3
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:5D:C3
+  Channel    : 6
+  Frequency  : 2432 - 2 packets, 22.22%
+  Frequency  : 2437 - 5 packets, 55.56%
+  Frequency  : 2442 - 2 packets, 22.22%
+  Max Seen   : 1000
+  LLC        : 9
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 9
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 9 packets
+               Mon May 13 20:42:41 2019
+Network 9: BSSID F0:5C:19:36:75:E0
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:35 2019
+ Last       : Mon May 13 20:42:37 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:75:E0
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks WPA" 
+    First      : Mon May 13 20:42:37 2019
+    Last       : Mon May 13 20:42:37 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 1
+    WPS        : No
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 11
+ Frequency  : 2457 - 2 packets, 22.22%
+ Frequency  : 2462 - 7 packets, 77.78%
+ Max Seen   : 1000
+ Carrier    : IEEE 802.11b+
+ Encoding   : PBCC
+ LLC        : 1
+ Data       : 8
+ Crypt      : 8
+ Fragments  : 0
+ Retries    : 0
+ Total      : 9
+ Datasize   : 6229
+ Last BSSTS : Mar 20 18:02:02
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 9 packets
+              Mon May 13 20:42:37 2019
+ Client 1: MAC 00:08:E3:FF:FF:20
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:37 2019
+  Last       : Mon May 13 20:42:37 2019
+  Type       : From Distribution
+  MAC        : 00:08:E3:FF:FF:20
+  Channel    : 0
+  Frequency  : 2462 - 6 packets, 100.00%
+  Max Seen   : 0
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 6
+  Crypt      : 6
+  Fragments  : 0
+  Retries    : 0
+  Total      : 6
+  Datasize   : 6077
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 6 packets
+               Mon May 13 20:42:37 2019
+ Client 2: MAC A8:51:5B:C7:BF:67
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:35 2019
+  Last       : Mon May 13 20:42:35 2019
+  Type       : To Distribution
+  MAC        : A8:51:5B:C7:BF:67
+  Channel    : 0
+  Frequency  : 2457 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 152
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+               Mon May 13 20:42:35 2019
+ Client 3: MAC F0:5C:19:36:75:E0
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:37 2019
+  Last       : Mon May 13 20:42:37 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:75:E0
+  Channel    : 11
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:37 2019
+Network 10: BSSID F0:5C:19:36:75:E1
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:37 2019
+ Last       : Mon May 13 20:42:37 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:75:E1
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:37 2019
+    Last       : Mon May 13 20:42:37 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 1
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 11
+ Frequency  : 2462 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:02:02
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+              Mon May 13 20:42:37 2019
+ Client 1: MAC F0:5C:19:36:75:E1
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:37 2019
+  Last       : Mon May 13 20:42:37 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:75:E1
+  Channel    : 11
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:37 2019
+Network 11: BSSID F0:5C:19:36:75:E3
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:37 2019
+ Last       : Mon May 13 20:42:37 2019
+ Type       : data
+ BSSID      : F0:5C:19:36:75:E3
+ Channel    : 0
+ Frequency  : 2462 - 2 packets, 100.00%
+ Max Seen   : 24000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ LLC        : 0
+ Data       : 2
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 2
+ Datasize   : 48
+ Last BSSTS : May 13 20:42:37
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+              Mon May 13 20:42:37 2019
+ Client 1: MAC C8:69:CD:C0:0E:E0
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:37 2019
+  Last       : Mon May 13 20:42:37 2019
+  Type       : To Distribution
+  MAC        : C8:69:CD:C0:0E:E0
+  Channel    : 0
+  Frequency  : 2462 - 2 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 2
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 48
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+               Mon May 13 20:42:37 2019
+Network 12: BSSID F0:5C:19:36:90:41
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:37 2019
+ Last       : Mon May 13 20:42:37 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:90:41
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:37 2019
+    Last       : Mon May 13 20:42:37 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 1
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 11
+ Frequency  : 2462 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:18:24
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+              Mon May 13 20:42:37 2019
+ Client 1: MAC F0:5C:19:36:90:41
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:37 2019
+  Last       : Mon May 13 20:42:37 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:90:41
+  Channel    : 11
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:37 2019
+Network 13: BSSID F0:5C:19:36:90:43
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:37 2019
+ Last       : Mon May 13 20:42:37 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:90:43
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks Guest" 
+    First      : Mon May 13 20:42:37 2019
+    Last       : Mon May 13 20:42:37 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 1
+    WPS        : No
+    Encryption : None
+ Channel    : 11
+ Frequency  : 2462 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:18:24
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+              Mon May 13 20:42:37 2019
+ Client 1: MAC F0:5C:19:36:90:43
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:37 2019
+  Last       : Mon May 13 20:42:37 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:90:43
+  Channel    : 11
+  Frequency  : 2462 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:37 2019
+Network 14: BSSID F0:5C:19:36:A6:A0
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:A6:A0
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks WPA" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 10
+    WPS        : No
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 1
+ Frequency  : 2412 - 5 packets, 50.00%
+ Frequency  : 2417 - 4 packets, 40.00%
+ Frequency  : 2422 - 1 packets, 10.00%
+ Max Seen   : 1000
+ LLC        : 10
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 10
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:26:33
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 10 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:A6:A0
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:A6:A0
+  Channel    : 1
+  Frequency  : 2412 - 5 packets, 50.00%
+  Frequency  : 2417 - 4 packets, 40.00%
+  Frequency  : 2422 - 1 packets, 10.00%
+  Max Seen   : 1000
+  LLC        : 10
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 10
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 10 packets
+               Mon May 13 20:42:41 2019
+Network 15: BSSID F0:5C:19:36:A6:A1
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:A6:A1
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 11
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 1
+ Frequency  : 2412 - 5 packets, 45.45%
+ Frequency  : 2417 - 5 packets, 45.45%
+ Frequency  : 2422 - 1 packets, 9.09%
+ Max Seen   : 1000
+ LLC        : 11
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 11
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:26:33
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 11 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:A6:A1
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:A6:A1
+  Channel    : 1
+  Frequency  : 2412 - 5 packets, 45.45%
+  Frequency  : 2417 - 5 packets, 45.45%
+  Frequency  : 2422 - 1 packets, 9.09%
+  Max Seen   : 1000
+  LLC        : 11
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 11
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 11 packets
+               Mon May 13 20:42:41 2019
+Network 16: BSSID F0:5C:19:36:A6:A2
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:A6:A2
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks Guest" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 9
+    WPS        : No
+    Encryption : None
+ Channel    : 1
+ Frequency  : 2412 - 5 packets, 55.56%
+ Frequency  : 2417 - 4 packets, 44.44%
+ Max Seen   : 1000
+ LLC        : 9
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 9
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:26:33
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 9 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:A6:A2
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:A6:A2
+  Channel    : 1
+  Frequency  : 2412 - 5 packets, 55.56%
+  Frequency  : 2417 - 4 packets, 44.44%
+  Max Seen   : 1000
+  LLC        : 9
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 9
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 9 packets
+               Mon May 13 20:42:41 2019
+Network 17: BSSID F0:5C:19:36:BA:60
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:BA:60
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks WPA" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 15
+    WPS        : No
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 6
+ Frequency  : 2432 - 6 packets, 40.00%
+ Frequency  : 2437 - 7 packets, 46.67%
+ Frequency  : 2447 - 2 packets, 13.33%
+ Max Seen   : 1000
+ LLC        : 15
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 15
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:10:19
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 15 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:BA:60
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:BA:60
+  Channel    : 6
+  Frequency  : 2432 - 6 packets, 40.00%
+  Frequency  : 2437 - 7 packets, 46.67%
+  Frequency  : 2447 - 2 packets, 13.33%
+  Max Seen   : 1000
+  LLC        : 15
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 15
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 15 packets
+               Mon May 13 20:42:41 2019
+Network 18: BSSID F0:5C:19:36:BA:61
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:BA:61
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 12
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 6
+ Frequency  : 2432 - 3 packets, 25.00%
+ Frequency  : 2437 - 8 packets, 66.67%
+ Frequency  : 2447 - 1 packets, 8.33%
+ Max Seen   : 1000
+ LLC        : 12
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 12
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:10:19
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 12 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:BA:61
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:BA:61
+  Channel    : 6
+  Frequency  : 2432 - 3 packets, 25.00%
+  Frequency  : 2437 - 8 packets, 66.67%
+  Frequency  : 2447 - 1 packets, 8.33%
+  Max Seen   : 1000
+  LLC        : 12
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 12
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 12 packets
+               Mon May 13 20:42:41 2019
+Network 19: BSSID F0:5C:19:36:BA:62
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:BA:62
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks Guest" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 11
+    WPS        : No
+    Encryption : None
+ Channel    : 6
+ Frequency  : 2432 - 4 packets, 36.36%
+ Frequency  : 2437 - 6 packets, 54.55%
+ Frequency  : 2447 - 1 packets, 9.09%
+ Max Seen   : 1000
+ LLC        : 11
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 11
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:10:19
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 11 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:BA:62
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:BA:62
+  Channel    : 6
+  Frequency  : 2432 - 4 packets, 36.36%
+  Frequency  : 2437 - 6 packets, 54.55%
+  Frequency  : 2447 - 1 packets, 9.09%
+  Max Seen   : 1000
+  LLC        : 11
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 11
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 11 packets
+               Mon May 13 20:42:41 2019
+Network 20: BSSID F0:5C:19:36:C1:80
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:35 2019
+ Last       : Mon May 13 20:42:40 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:C1:80
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks WPA" 
+    First      : Mon May 13 20:42:35 2019
+    Last       : Mon May 13 20:42:40 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 8
+    WPS        : No
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 11
+ Frequency  : 2457 - 5 packets, 50.00%
+ Frequency  : 2462 - 2 packets, 20.00%
+ Frequency  : 2467 - 2 packets, 20.00%
+ Frequency  : 2472 - 1 packets, 10.00%
+ Max Seen   : 2000
+ LLC        : 8
+ Data       : 2
+ Crypt      : 2
+ Fragments  : 0
+ Retries    : 0
+ Total      : 10
+ Datasize   : 176
+ Last BSSTS : Mar 20 18:01:56
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 10 packets
+              Mon May 13 20:42:40 2019
+ Client 1: MAC 60:6C:66:9E:59:C6
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:35 2019
+  Last       : Mon May 13 20:42:35 2019
+  Type       : To Distribution
+  MAC        : 60:6C:66:9E:59:C6
+  Channel    : 0
+  Frequency  : 2457 - 2 packets, 100.00%
+  Max Seen   : 2000
+  LLC        : 0
+  Data       : 2
+  Crypt      : 2
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 176
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+               Mon May 13 20:42:35 2019
+ Client 2: MAC F0:5C:19:36:C1:80
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:35 2019
+  Last       : Mon May 13 20:42:40 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:C1:80
+  Channel    : 11
+  Frequency  : 2457 - 3 packets, 37.50%
+  Frequency  : 2462 - 2 packets, 25.00%
+  Frequency  : 2467 - 2 packets, 25.00%
+  Frequency  : 2472 - 1 packets, 12.50%
+  Max Seen   : 1000
+  LLC        : 8
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 8
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 8 packets
+               Mon May 13 20:42:40 2019
+Network 21: BSSID F0:5C:19:36:C1:81
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:35 2019
+ Last       : Mon May 13 20:42:38 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:C1:81
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:35 2019
+    Last       : Mon May 13 20:42:38 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 6
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 11
+ Frequency  : 2457 - 2 packets, 33.33%
+ Frequency  : 2462 - 1 packets, 16.67%
+ Frequency  : 2467 - 3 packets, 50.00%
+ Max Seen   : 1000
+ LLC        : 6
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 6
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:01:56
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 6 packets
+              Mon May 13 20:42:38 2019
+ Client 1: MAC F0:5C:19:36:C1:81
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:35 2019
+  Last       : Mon May 13 20:42:38 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:C1:81
+  Channel    : 11
+  Frequency  : 2457 - 2 packets, 33.33%
+  Frequency  : 2462 - 1 packets, 16.67%
+  Frequency  : 2467 - 3 packets, 50.00%
+  Max Seen   : 1000
+  LLC        : 6
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 6
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 6 packets
+               Mon May 13 20:42:38 2019
+Network 22: BSSID F0:5C:19:36:C1:83
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:35 2019
+ Last       : Mon May 13 20:42:40 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:C1:83
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks Guest" 
+    First      : Mon May 13 20:42:35 2019
+    Last       : Mon May 13 20:42:40 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 9
+    WPS        : No
+    Encryption : None
+ Channel    : 11
+ Frequency  : 2457 - 4 packets, 44.44%
+ Frequency  : 2462 - 1 packets, 11.11%
+ Frequency  : 2467 - 2 packets, 22.22%
+ Frequency  : 2472 - 2 packets, 22.22%
+ Max Seen   : 1000
+ LLC        : 9
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 9
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:01:56
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 9 packets
+              Mon May 13 20:42:40 2019
+ Client 1: MAC F0:5C:19:36:C1:83
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:35 2019
+  Last       : Mon May 13 20:42:40 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:C1:83
+  Channel    : 11
+  Frequency  : 2457 - 4 packets, 44.44%
+  Frequency  : 2462 - 1 packets, 11.11%
+  Frequency  : 2467 - 2 packets, 22.22%
+  Frequency  : 2472 - 2 packets, 22.22%
+  Max Seen   : 1000
+  LLC        : 9
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 9
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 9 packets
+               Mon May 13 20:42:40 2019
+Network 23: BSSID F0:5C:19:36:CB:E0
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:35 2019
+ Last       : Mon May 13 20:42:38 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:CB:E0
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks WPA" 
+    First      : Mon May 13 20:42:35 2019
+    Last       : Mon May 13 20:42:38 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 8
+    WPS        : No
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 11
+ Frequency  : 2457 - 4 packets, 50.00%
+ Frequency  : 2462 - 2 packets, 25.00%
+ Frequency  : 2467 - 2 packets, 25.00%
+ Max Seen   : 1000
+ LLC        : 8
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 8
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:10:33
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 8 packets
+              Mon May 13 20:42:38 2019
+ Client 1: MAC F0:5C:19:36:CB:E0
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:35 2019
+  Last       : Mon May 13 20:42:38 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:CB:E0
+  Channel    : 11
+  Frequency  : 2457 - 4 packets, 50.00%
+  Frequency  : 2462 - 2 packets, 25.00%
+  Frequency  : 2467 - 2 packets, 25.00%
+  Max Seen   : 1000
+  LLC        : 8
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 8
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 8 packets
+               Mon May 13 20:42:38 2019
+Network 24: BSSID F0:5C:19:36:CB:E1
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:33 2019
+ Last       : Mon May 13 20:42:38 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:CB:E1
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:33 2019
+    Last       : Mon May 13 20:42:38 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 10
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 11
+ Frequency  : 2452 - 1 packets, 10.00%
+ Frequency  : 2457 - 5 packets, 50.00%
+ Frequency  : 2462 - 2 packets, 20.00%
+ Frequency  : 2467 - 2 packets, 20.00%
+ Max Seen   : 1000
+ LLC        : 10
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 10
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:10:33
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 10 packets
+              Mon May 13 20:42:38 2019
+ Client 1: MAC F0:5C:19:36:CB:E1
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:33 2019
+  Last       : Mon May 13 20:42:38 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:CB:E1
+  Channel    : 11
+  Frequency  : 2452 - 1 packets, 10.00%
+  Frequency  : 2457 - 5 packets, 50.00%
+  Frequency  : 2462 - 2 packets, 20.00%
+  Frequency  : 2467 - 2 packets, 20.00%
+  Max Seen   : 1000
+  LLC        : 10
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 10
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 10 packets
+               Mon May 13 20:42:38 2019
+Network 25: BSSID F0:5C:19:36:CB:E2
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:35 2019
+ Last       : Mon May 13 20:42:38 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:CB:E2
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks Guest" 
+    First      : Mon May 13 20:42:35 2019
+    Last       : Mon May 13 20:42:38 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 10
+    WPS        : No
+    Encryption : None
+ Channel    : 11
+ Frequency  : 2457 - 5 packets, 50.00%
+ Frequency  : 2462 - 2 packets, 20.00%
+ Frequency  : 2467 - 3 packets, 30.00%
+ Max Seen   : 1000
+ LLC        : 10
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 10
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:10:33
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 10 packets
+              Mon May 13 20:42:38 2019
+ Client 1: MAC F0:5C:19:36:CB:E2
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:35 2019
+  Last       : Mon May 13 20:42:38 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:CB:E2
+  Channel    : 11
+  Frequency  : 2457 - 5 packets, 50.00%
+  Frequency  : 2462 - 2 packets, 20.00%
+  Frequency  : 2467 - 3 packets, 30.00%
+  Max Seen   : 1000
+  LLC        : 10
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 10
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 10 packets
+               Mon May 13 20:42:38 2019
+Network 26: BSSID F0:5C:19:36:CF:C0
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:CF:C0
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks WPA" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 12
+    WPS        : No
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 1
+ Frequency  : 2412 - 82 packets, 93.18%
+ Frequency  : 2417 - 6 packets, 6.82%
+ Max Seen   : 1000
+ Carrier    : IEEE 802.11b+
+ Encoding   : PBCC
+ LLC        : 12
+ Data       : 76
+ Crypt      : 76
+ Fragments  : 0
+ Retries    : 0
+ Total      : 88
+ Datasize   : 32825
+ Last BSSTS : Mar 20 18:10:29
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 88 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC 00:08:E3:FF:FF:20
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : From Distribution
+  MAC        : 00:08:E3:FF:FF:20
+  Channel    : 0
+  Frequency  : 2412 - 47 packets, 100.00%
+  Max Seen   : 0
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 47
+  Crypt      : 47
+  Fragments  : 0
+  Retries    : 0
+  Total      : 47
+  Datasize   : 25538
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 47 packets
+               Mon May 13 20:42:32 2019
+ Client 2: MAC 98:22:EF:2B:C7:4D
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : To Distribution
+  MAC        : 98:22:EF:2B:C7:4D
+  Channel    : 0
+  Frequency  : 2412 - 29 packets, 100.00%
+  Max Seen   : 0
+  Carrier    : IEEE 802.11b+
+  Encoding   : PBCC
+  LLC        : 0
+  Data       : 29
+  Crypt      : 29
+  Fragments  : 0
+  Retries    : 0
+  Total      : 29
+  Datasize   : 7287
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 29 packets
+               Mon May 13 20:42:32 2019
+ Client 3: MAC F0:5C:19:36:CF:C0
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:CF:C0
+  Channel    : 1
+  Frequency  : 2412 - 6 packets, 50.00%
+  Frequency  : 2417 - 6 packets, 50.00%
+  Max Seen   : 1000
+  LLC        : 12
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 12
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 12 packets
+               Mon May 13 20:42:41 2019
+Network 27: BSSID F0:5C:19:36:CF:C1
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:CF:C1
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 13
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 1
+ Frequency  : 2412 - 9 packets, 60.00%
+ Frequency  : 2417 - 6 packets, 40.00%
+ Max Seen   : 24000
+ Carrier    : IEEE 802.11b+
+ Encoding   : CCK
+ LLC        : 13
+ Data       : 2
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 15
+ Datasize   : 48
+ Last BSSTS : Mar 20 18:10:29
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 15 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC B8:27:EB:A3:7A:1D
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:32 2019
+  Type       : To Distribution
+  MAC        : B8:27:EB:A3:7A:1D
+  Channel    : 0
+  Frequency  : 2412 - 2 packets, 100.00%
+  Max Seen   : 24000
+  Carrier    : IEEE 802.11b+
+  Encoding   : CCK
+  LLC        : 0
+  Data       : 2
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 48
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+               Mon May 13 20:42:32 2019
+ Client 2: MAC F0:5C:19:36:CF:C1
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:CF:C1
+  Channel    : 1
+  Frequency  : 2412 - 7 packets, 53.85%
+  Frequency  : 2417 - 6 packets, 46.15%
+  Max Seen   : 1000
+  LLC        : 13
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 13
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 13 packets
+               Mon May 13 20:42:41 2019
+Network 28: BSSID F0:5C:19:36:CF:C2
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:CF:C2
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks Guest" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 15
+    WPS        : No
+    Encryption : None
+ Channel    : 1
+ Frequency  : 2412 - 8 packets, 53.33%
+ Frequency  : 2417 - 7 packets, 46.67%
+ Max Seen   : 1000
+ LLC        : 15
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 15
+ Datasize   : 0
+ Last BSSTS : Mar 20 18:10:29
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 15 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:CF:C2
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:CF:C2
+  Channel    : 1
+  Frequency  : 2412 - 8 packets, 53.33%
+  Frequency  : 2417 - 7 packets, 46.67%
+  Max Seen   : 1000
+  LLC        : 15
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 15
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 15 packets
+               Mon May 13 20:42:41 2019
+Network 29: BSSID F0:5C:19:36:DF:00
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:39 2019
+ Last       : Mon May 13 20:42:39 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:DF:00
+   SSID 1
+    Type       : Probe Response
+    SSID       : "NP Hawks WPA" 
+    First      : Mon May 13 20:42:39 2019
+    Last       : Mon May 13 20:42:39 2019
+    Max Rate   : 288.8
+    Beacon     : -1
+    Packets    : 1
+    WPS        : No
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 0
+ Frequency  : 2412 - 1 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 1
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 1
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:35:10
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+              Mon May 13 20:42:39 2019
+ Client 1: MAC F0:5C:19:36:DF:00
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:39 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : Unknown
+  MAC        : F0:5C:19:36:DF:00
+  Channel    : 0
+  Frequency  : 2412 - 1 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 1
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 1
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 1 packets
+               Mon May 13 20:42:39 2019
+Network 30: BSSID F0:5C:19:36:DF:01
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:DF:01
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 7
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 1
+ Frequency  : 2412 - 5 packets, 71.43%
+ Frequency  : 2417 - 2 packets, 28.57%
+ Max Seen   : 1000
+ LLC        : 7
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 7
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:35:10
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 7 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:DF:01
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:DF:01
+  Channel    : 1
+  Frequency  : 2412 - 5 packets, 71.43%
+  Frequency  : 2417 - 2 packets, 28.57%
+  Max Seen   : 1000
+  LLC        : 7
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 7
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 7 packets
+               Mon May 13 20:42:41 2019
+Network 31: BSSID F0:5C:19:36:DF:03
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:39 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:DF:03
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks Guest" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:39 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 5
+    WPS        : No
+    Encryption : None
+ Channel    : 1
+ Frequency  : 2412 - 4 packets, 80.00%
+ Frequency  : 2422 - 1 packets, 20.00%
+ Max Seen   : 1000
+ LLC        : 5
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 5
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:35:10
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 5 packets
+              Mon May 13 20:42:39 2019
+ Client 1: MAC F0:5C:19:36:DF:03
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:39 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:DF:03
+  Channel    : 1
+  Frequency  : 2412 - 4 packets, 80.00%
+  Frequency  : 2422 - 1 packets, 20.00%
+  Max Seen   : 1000
+  LLC        : 5
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 5
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 5 packets
+               Mon May 13 20:42:39 2019
+Network 32: BSSID F0:5C:19:36:F6:C0
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:32 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:F6:C0
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks WPA" 
+    First      : Mon May 13 20:42:32 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 4
+    WPS        : No
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 6
+ Frequency  : 2432 - 1 packets, 25.00%
+ Frequency  : 2437 - 3 packets, 75.00%
+ Max Seen   : 1000
+ LLC        : 4
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 4
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:18:40
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 4 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:F6:C0
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:32 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:F6:C0
+  Channel    : 6
+  Frequency  : 2432 - 1 packets, 25.00%
+  Frequency  : 2437 - 3 packets, 75.00%
+  Max Seen   : 1000
+  LLC        : 4
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 4
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 4 packets
+               Mon May 13 20:42:41 2019
+Network 33: BSSID F0:5C:19:36:F6:C1
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:34 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:F6:C1
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks DevNet" 
+    First      : Mon May 13 20:42:34 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 2
+    WPS        : No
+    Encryption : WPA+PSK
+    Encryption : WPA+AES-CCM
+    WPA Version: WPA2
+ Channel    : 6
+ Frequency  : 2437 - 2 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 2
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 2
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:18:40
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:F6:C1
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:34 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:F6:C1
+  Channel    : 6
+  Frequency  : 2437 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+               Mon May 13 20:42:41 2019
+Network 34: BSSID F0:5C:19:36:F6:C3
+ Manuf      : Unknown
+ First      : Mon May 13 20:42:35 2019
+ Last       : Mon May 13 20:42:41 2019
+ Type       : infrastructure
+ BSSID      : F0:5C:19:36:F6:C3
+   SSID 1
+    Type       : Beacon
+    SSID       : "NP Hawks Guest" 
+    First      : Mon May 13 20:42:35 2019
+    Last       : Mon May 13 20:42:41 2019
+    Max Rate   : 288.8
+    Beacon     : 10
+    Packets    : 2
+    WPS        : No
+    Encryption : None
+ Channel    : 6
+ Frequency  : 2437 - 2 packets, 100.00%
+ Max Seen   : 1000
+ LLC        : 2
+ Data       : 0
+ Crypt      : 0
+ Fragments  : 0
+ Retries    : 0
+ Total      : 2
+ Datasize   : 0
+ Last BSSTS : Mar 20 17:18:40
+    Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+              Mon May 13 20:42:41 2019
+ Client 1: MAC F0:5C:19:36:F6:C3
+  Manuf      : Unknown
+  First      : Mon May 13 20:42:35 2019
+  Last       : Mon May 13 20:42:41 2019
+  Type       : From Distribution
+  MAC        : F0:5C:19:36:F6:C3
+  Channel    : 6
+  Frequency  : 2437 - 2 packets, 100.00%
+  Max Seen   : 1000
+  LLC        : 2
+  Data       : 0
+  Crypt      : 0
+  Fragments  : 0
+  Retries    : 0
+  Total      : 2
+  Datasize   : 0
+     Seen By : wlan1mon (wlan1mon) 279bf1d6-75e1-11e9-af15-5a05392b2d03 2 packets
+               Mon May 13 20:42:41 2019
